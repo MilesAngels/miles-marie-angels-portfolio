@@ -620,11 +620,34 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 * {
-  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: calc(100vh + 70px);
+}
+
+.site-header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  padding-top: 0.75em;
+  z-index: 1;
+  background-color: #210939;
+  border-bottom: 1px solid #40282C;
+}
+.site-header .site-branding {
+  float: left;
+  margin: 0px 15px;
+  height: 50px;
+  width: 50px;
 }
 
 .main-navigation {
-  display: block;
+  display: flex;
+  justify-content: flex-end;
   width: 100%;
 }
 .main-navigation ul {
@@ -632,6 +655,7 @@ textarea {
   list-style: none;
   margin: 0;
   padding-left: 0;
+  padding: 20px;
 }
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -657,16 +681,54 @@ textarea {
   left: auto;
 }
 .main-navigation li {
-  position: relative;
+  margin: 0 10px;
 }
 .main-navigation a {
   display: block;
   text-decoration: none;
+  color: #40282C;
+}
+.main-navigation a:hover {
+  font-weight: 500;
 }
 /* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
+.menu-toggle {
   display: block;
+  padding: 16px 16px 18px 16px;
+  position: absolute;
+  right: 2px;
+  margin-top: -30px;
+  background-color: #210939;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+}
+
+.main-navigation.toggled {
+  display: block;
+  right: 0px;
+}
+.main-navigation.toggled ul {
+  width: 100%;
+  display: block;
+  position: absolute;
+  height: 100vh;
+  right: 0;
+  margin: 20px 0 0 0px;
+  background-color: white;
+  text-align: center;
+}
+.main-navigation.toggled ul li a {
+  padding: 30px;
+  transform: translateX(-1%);
+  transition: transform 0.35s ease-in;
+}
+
+.burger-menu {
+  display: flex;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #40282C;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -727,12 +789,16 @@ textarea {
 }
 
 .hero-section {
+  display: flex;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
 }
 .hero-section .hero-image {
   position: relative;
-  height: 100vh;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: right center;
 }
 .hero-section .overlay {
   position: absolute;
@@ -741,11 +807,11 @@ textarea {
   background: rgba(33, 9, 57, 0.3);
   color: #fff;
   bottom: 0;
-  padding: 20px 40px;
+  padding: 30px 15px;
   line-height: 0.25em;
 }
 .hero-section .overlay p {
-  font-size: 1.87em;
+  font-size: 1.7em;
 }
 .hero-section .overlay .project-button {
   background: #F2A2A7;
@@ -757,7 +823,7 @@ textarea {
   text-decoration: none;
   color: #000;
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   line-height: 1.5em;
   border-radius: none;
 }
