@@ -2,9 +2,9 @@
     <div class="hero-image" style="background-image: url('http://miles-marie-angels.local/wp-content/uploads/2022/06/1217172.jpg'); background-size: cover;">
     
         <div class="overlay">
-            <p>Hey! My name is Miles</p>
+            <p>Hey! My name is Miles.</p>
             <p>I'm a WordPress developer.</p>
-            <button>See my work</button>
+            <button class="project-button"><a href="#">See my work</a></button>
         </div>
     </div>
 </section>

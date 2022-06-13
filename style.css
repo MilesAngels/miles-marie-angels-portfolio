@@ -728,25 +728,38 @@ textarea {
 
 .hero-section {
   width: 100%;
-  height: auto;
+  height: 80vh;
 }
 .hero-section .hero-image {
   position: relative;
-  width: 100%;
   height: 100vh;
 }
 .hero-section .overlay {
   position: absolute;
   width: 100%;
   height: 250px;
-  background: rgba(33, 9, 57, 0.17);
+  background: rgba(33, 9, 57, 0.3);
   color: #fff;
   bottom: 0;
-  padding: 20px;
+  padding: 20px 40px;
+  line-height: 0.25em;
 }
 .hero-section .overlay p {
+  font-size: 1.87em;
+}
+.hero-section .overlay .project-button {
+  background: #F2A2A7;
+  border-radius: 10px;
+  width: 200px;
+  vertical-align: middle;
+}
+.hero-section .overlay .project-button a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
   font-size: 1.25em;
-  line-height: 1em;
+  line-height: 1.5em;
+  border-radius: none;
 }
 
 /* Comments
