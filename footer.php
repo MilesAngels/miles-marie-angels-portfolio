@@ -11,22 +11,48 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'miles-marie-angels' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'miles-marie-angels' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'miles-marie-angels' ), 'miles-marie-angels', '<a href="http://milesmarieangels.com">Miles Marie Angels</a>' );
-				?>
-		</div><!-- .site-info -->
+<footer id="colophon" class="site-footer">
+        <section class="footer-column">
+            <div class="footer-container">
+                <h3>ABOUT</h3>
+            <?php
+                wp_nav_menu(array(
+                    'menu' => 'Nav Menu',
+                    'theme_location' => 'footer-menu',
+                    'menu_class' => 'footer-menu',
+                    'menu_id' => 'footer-id'
+                ))
+            ?>
+            </div><!-- .site-info -->
+            <div class="footer-container">
+                <h3>PROJECTS</h3>
+                <?php
+                    wp_nav_menu(array(
+                        'menu' => 'Nav Menu',
+                        'theme_location' => 'footer-menu2',
+                        'menu_class' => 'footer-menu',
+                        'menu_id' => 'footer-id'
+                    ))
+                ?>
+            </div>
+            <div class="footer-container">
+                <h3>ART</h3>
+                <?php
+                    wp_nav_menu(array(
+                        'menu' => 'Nav Menu',
+                        'theme_location' => 'footer-menu3',
+                        'menu_class' => 'footer-menu',
+                        'menu_id' => 'footer-id'
+                    ))
+                ?>
+            </div>
+        </section>
+        <div class="copyright">
+            <p>&copy; Miles Marie Angels</p>
+        </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+
 
 <?php wp_footer(); ?>
 

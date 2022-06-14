@@ -686,7 +686,7 @@ body {
 .main-navigation a {
   display: block;
   text-decoration: none;
-  color: #40282C;
+  color: #fff;
 }
 .main-navigation a:hover {
   font-weight: 500;
@@ -762,6 +762,50 @@ body {
   flex: 1 0 50%;
 }
 
+.site-footer {
+  background-color: #12111F;
+  width: 100%;
+  height: auto;
+  padding: 1em 1em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer-column .footer-container {
+  flex: 1;
+  text-align: center;
+}
+.footer-column .footer-container h4 {
+  margin: 0 auto;
+  padding: 1em 0;
+}
+.footer-column .footer-container ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-column .footer-container li, .footer-column .footer-container a {
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 2em;
+  color: #fff;
+}
+.footer-column .copyright p {
+  padding: 30px 0 0 0;
+}
+
+@media screen and (max-width: 37.5em) {
+  .footer-column {
+    flex-direction: column;
+  }
+  .footer-column .footer-container {
+    padding-bottom: 1.5em;
+  }
+}
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -798,7 +842,7 @@ body {
   width: 100%;
   height: auto;
   background-size: cover;
-  background-position: right center;
+  background-position: 90% center;
 }
 .hero-section .overlay {
   position: absolute;
