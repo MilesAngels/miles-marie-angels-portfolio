@@ -881,32 +881,38 @@ body {
 }
 
 .about-me-container {
+  display: grid;
   background-color: #182030;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 100vh;
-}
-.about-me-container .about-image, .about-me-container .about-text {
-  margin: 0 auto;
+  grid-template-columns: 1fr;
+  padding: 15% 0;
 }
 .about-me-container .about-image-container {
-  width: 40%;
-  height: 500px;
+  width: 100%;
 }
 .about-me-container .about-image-container .about-image {
+  width: 250px;
+  height: 300px;
   background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
-  min-width: 200px;
-  max-width: 450px;
-  height: 550px;
-  border: 1px solid white;
+  margin: 0 auto;
 }
 .about-me-container .about-text {
-  width: 60%;
-  margin: -220px 50px 0 30px;
+  width: 250px;
+  margin: 0 auto;
   color: #fff;
 }
 
+@media screen and (min-width: 40em) {
+  .about-me-container {
+    grid-template-columns: 1fr 2fr;
+  }
+  .about-me-container .about-image-container {
+    margin: 0 10%;
+  }
+  .about-me-container .about-text {
+    width: fit-content;
+    margin: 0 10%;
+  }
+}
 /* Comments
 --------------------------------------------- */
 .comment-content a {
