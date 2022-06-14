@@ -4,11 +4,13 @@
     height: 100vh;
 
     .hero-image {
-        position: relative;
+        //position: relative;
         width: 100%;
         height: auto;
-        background-size: cover;
-        background-position: 90% center;
+        //background-size: contain;
+        //background-position: 90% center;
+        object-fit: cover;
+        object-position: 90% center;
     }
 
     .overlay {
@@ -37,5 +39,10 @@
                 border-radius: none;
             }
         }
+    }
+    .center {
+        text-align: center;
+        line-height: calc(250px - 100px);
+        top: 45%;
     }
 }

@@ -842,11 +842,10 @@ body {
   height: 100vh;
 }
 .hero-section .hero-image {
-  position: relative;
   width: 100%;
   height: auto;
-  background-size: cover;
-  background-position: 90% center;
+  object-fit: cover;
+  object-position: 90% center;
 }
 .hero-section .overlay {
   position: absolute;
@@ -874,6 +873,37 @@ body {
   font-size: 1.25rem;
   line-height: 1.5em;
   border-radius: none;
+}
+.hero-section .center {
+  text-align: center;
+  line-height: 150px;
+  top: 45%;
+}
+
+.about-me-container {
+  background-color: #182030;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+}
+.about-me-container .about-image, .about-me-container .about-text {
+  margin: 0 auto;
+}
+.about-me-container .about-image-container {
+  width: 40%;
+  height: 500px;
+}
+.about-me-container .about-image-container .about-image {
+  background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
+  max-width: 450px;
+  height: 550px;
+  border: 1px solid white;
+}
+.about-me-container .about-text {
+  width: 60%;
+  margin: -220px 50px 0 30px;
+  color: #fff;
 }
 
 /* Comments
