@@ -53,6 +53,12 @@ function miles_marie_angels_setup() {
 		)
 	);
 
+	//Register extra footer menu
+	register_nav_menu('footer-menu1', 'Footer Menu 1');
+	register_nav_menu('footer-menu2', 'Footer Menu 2');
+	register_nav_menu('footer-menu3', 'Footer Menu 3');
+	register_nav_menu('footer-menu4', 'Footer Menu 4');
+
 	/*
 		* Switch default core markup for search form, comment form, and comments
 		* to output valid HTML5.

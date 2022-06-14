@@ -33,7 +33,7 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">button</button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><a class="burger-menu">&#9776;</a></button>
 			<?php
 			wp_nav_menu(
 				array(

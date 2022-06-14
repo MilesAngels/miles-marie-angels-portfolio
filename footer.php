@@ -18,7 +18,7 @@
             <?php
                 wp_nav_menu(array(
                     'menu' => 'Nav Menu',
-                    'theme_location' => 'footer-menu',
+                    'theme_location' => 'footer-menu1',
                     'menu_class' => 'footer-menu',
                     'menu_id' => 'footer-id'
                 ))
@@ -41,6 +41,17 @@
                     wp_nav_menu(array(
                         'menu' => 'Nav Menu',
                         'theme_location' => 'footer-menu3',
+                        'menu_class' => 'footer-menu',
+                        'menu_id' => 'footer-id'
+                    ))
+                ?>
+            </div>
+            <div class="footer-container">
+                <h3>CONTACT</h3>
+                <?php
+                    wp_nav_menu(array(
+                        'menu' => 'Nav Menu',
+                        'theme_location' => 'footer-menu4',
                         'menu_class' => 'footer-menu',
                         'menu_id' => 'footer-id'
                     ))

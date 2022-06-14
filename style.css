@@ -646,16 +646,13 @@ body {
 }
 
 .main-navigation {
-  display: flex;
-  justify-content: flex-end;
+  display: block;
   width: 100%;
 }
 .main-navigation ul {
+  list-style-type: none;
+  float: right;
   display: none;
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-  padding: 20px;
 }
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -681,32 +678,37 @@ body {
   left: auto;
 }
 .main-navigation li {
-  margin: 0 10px;
+  position: relative;
 }
 .main-navigation a {
   display: block;
   text-decoration: none;
+  display: inline-block;
   color: #fff;
-}
-.main-navigation a:hover {
-  font-weight: 500;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 20px 20px;
 }
 /* Small menu. */
 .menu-toggle {
   display: block;
-  padding: 16px 16px 18px 16px;
   position: absolute;
   right: 2px;
-  margin-top: -30px;
-  background-color: #210939;
-  color: #fff;
+  margin-top: -50px;
+  background-color: transparent;
   border: none;
   border-radius: 0;
+  color: #fff;
 }
 
 .main-navigation.toggled {
   display: block;
   right: 0px;
+  width: 100%;
+}
+.main-navigation.toggled .menu-primary-menu-container {
+  width: 100%;
+  background-color: #fff;
 }
 .main-navigation.toggled ul {
   width: 100%;
@@ -714,21 +716,20 @@ body {
   position: absolute;
   height: 100vh;
   right: 0;
-  margin: 20px 0 0 0px;
-  background-color: white;
+  margin: 30px 0 0 0px;
   text-align: center;
+  background-color: #fff;
+  padding: 0;
 }
 .main-navigation.toggled ul li a {
   padding: 30px;
-  transform: translateX(-1%);
-  transition: transform 0.35s ease-in;
 }
 
 .burger-menu {
   display: flex;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 1.5rem;
-  color: #40282C;
+  color: #FFF !important;
 }
 
 @media screen and (min-width: 37.5em) {
