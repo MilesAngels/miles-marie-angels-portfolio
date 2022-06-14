@@ -896,6 +896,7 @@ body {
 }
 .about-me-container .about-image-container .about-image {
   background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
+  min-width: 200px;
   max-width: 450px;
   height: 550px;
   border: 1px solid white;
