@@ -1,10 +1,9 @@
 <section class="hero-section">
-    <div class="hero-image" style="background-image: url('http://miles-marie-angels.local/wp-content/uploads/2022/06/1217172.jpg');">
+    <img class="hero-image" src="<?php the_field('hero-image');?>">
     
         <div class="overlay">
             <p>Hey! My name is Miles.</p>
             <p>I'm a WordPress developer.</p>
             <button class="project-button"><a href="#">See my work</a></button>
         </div>
-    </div>
 </section>

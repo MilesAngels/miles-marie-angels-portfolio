@@ -17,7 +17,7 @@ body {
 	padding-top: 0.75em;
     z-index: 1;
 	background-color: #210939;
-	border-bottom: 1px solid #40282C;
+	//border-bottom: 1px solid #40282C;
 	.site-branding{
 		float: left;
 		margin: 0px 15px;
@@ -89,7 +89,7 @@ body {
 		display: block;
 		text-decoration: none;
 		display: inline-block;
-		color: #fff;
+		color: #210939;
 		font-weight: bolder;
 		text-transform: uppercase;
 		margin: 20px 20px;
@@ -171,6 +171,11 @@ body {
 
 	.main-navigation ul {
 		display: flex;
+		
+	}
+
+	.main-navigation a {
+		color: #fff;
 	}
 }
 
