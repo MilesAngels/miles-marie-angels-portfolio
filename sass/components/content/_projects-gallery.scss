@@ -1,12 +1,15 @@
 .gallery {
-    display: grid;
-    width: 100%;
+    display: grid !important;
+    width: cover;
     height: auto;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     grid-template-rows: auto;
     grid-gap: 1rem;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
+    //justify-items: center;
+    //align-content: center;
+    //grid-auto-flow: dense;
+    //margin: 0 auto;
     padding: 10% 0;
 
     .cards {
