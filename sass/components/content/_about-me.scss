@@ -27,9 +27,6 @@
                 text-decoration: underline;
             }
 
-            &:visited {
-                color: aqua;
-            }
         }
     }
 }
@@ -48,6 +45,7 @@
         height: 400px;
         margin: 10% 0;
         background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
+        //add hover effect
     }
 }
 

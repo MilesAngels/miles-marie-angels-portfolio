@@ -908,9 +908,6 @@ body {
   color: pink;
   text-decoration: underline;
 }
-.about-me-container .about-text h3 a:visited {
-  color: aqua;
-}
 
 .credentials {
   display: grid;
