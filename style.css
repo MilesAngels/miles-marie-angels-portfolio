@@ -884,7 +884,7 @@ body {
   display: grid;
   background-color: #182030;
   grid-template-columns: 1fr;
-  padding: 15% 0;
+  padding: 10% 0;
 }
 .about-me-container .about-image-container {
   width: 100%;
@@ -900,6 +900,31 @@ body {
   margin: 0 auto;
   color: #fff;
 }
+.about-me-container .about-text h3 a {
+  text-decoration: none;
+  color: #fff;
+}
+.about-me-container .about-text h3 a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+.about-me-container .about-text h3 a:visited {
+  color: aqua;
+}
+
+.credentials {
+  display: grid;
+  background-color: #182030;
+  grid-template-columns: 1fr;
+  padding: 10% 0;
+  justify-items: center;
+}
+.credentials .skills, .credentials .background {
+  text-align: center;
+  width: 250px;
+  height: 500px;
+  background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
+}
 
 @media screen and (min-width: 40em) {
   .about-me-container {
@@ -908,9 +933,17 @@ body {
   .about-me-container .about-image-container {
     margin: 0 10%;
   }
+  .about-me-container .about-image-container .about-image {
+    width: 300px;
+    height: 400px;
+  }
   .about-me-container .about-text {
     width: fit-content;
     margin: 0 10%;
+  }
+
+  .credentials {
+    grid-template-columns: 1fr 1fr;
   }
 }
 /* Comments
