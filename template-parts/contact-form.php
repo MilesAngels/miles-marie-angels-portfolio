@@ -24,6 +24,8 @@
             <label for="message"></label>
             <textarea name="message" placeholder="Message"></textarea>
         </div>
+
+        <button type="submit">Submit</button>
     </form>
     
 </section>

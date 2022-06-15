@@ -55,13 +55,14 @@
         padding: 30px 15px;
         line-height: 0.25em;
         text-align: center;
-        line-height: 4em;
+        line-height: 3.5em;
         
         form {
             position: relative;
             margin: 0 auto;
             width: 400px;
-            background: rgba(33, 9, 57, 0.3);
+            //background: rgba(33, 9, 57, 0.3);
+
             input[type='text'], [type='email'], textarea {
                 background: none;
                 border: none;
@@ -85,31 +86,34 @@
                 -o-transition: all 0.3s;
                 transition: all 0.3s;
 
-                input[type='text']:focus, [type='email']:focus, textarea:focus {
-                    border-top-style: hidden;
-                    border-right-style: hidden;
-                    border-left-style: hidden;
-                    border-bottom-style: groove;
-                    padding: 0 0 0.875em 0;
-                }
+            }
 
-                ::-webkit-input-placeholder {
-                    color: #474544;
-                }
-                
-                :-moz-placeholder { 
-                    color: #fff;
-                    opacity: 1;
-                }
-                
-                ::-moz-placeholder {
-                    color: #fff;
-                    opacity: 1;
-                }
-                
-                :-ms-input-placeholder {
-                    color: #fff;
-                }
+            input[type='text']:focus, [type='email']:focus, textarea:focus {
+                outline: none;
+                border-bottom-style: groove;
+                padding: 0 0 0.875em 0;
+            }
+
+            ::-webkit-input-placeholder {
+                color: #fff;
+            }
+            
+            :-moz-placeholder { 
+                color: #fff;
+                opacity: 1;
+            }
+            
+            ::-moz-placeholder {
+                color: #fff;
+                opacity: 1;
+            }
+            
+            :-ms-input-placeholder {
+                color: #fff;
+            }
+
+            ::placeholder {
+                color: #fff;
             }
         }
         

@@ -899,13 +899,12 @@ body {
   padding: 30px 15px;
   line-height: 0.25em;
   text-align: center;
-  line-height: 4em;
+  line-height: 3.5em;
 }
 .hero-section .form-overlay form {
   position: relative;
   margin: 0 auto;
   width: 400px;
-  background: rgba(33, 9, 57, 0.3);
 }
 .hero-section .form-overlay form input[type=text], .hero-section .form-overlay form [type=email], .hero-section .form-overlay form textarea {
   background: none;
@@ -930,25 +929,26 @@ body {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-.hero-section .form-overlay form input[type=text] input[type=text]:focus, .hero-section .form-overlay form input[type=text] [type=email]:focus, .hero-section .form-overlay form input[type=text] textarea:focus, .hero-section .form-overlay form [type=email] input[type=text]:focus, .hero-section .form-overlay form [type=email] [type=email]:focus, .hero-section .form-overlay form [type=email] textarea:focus, .hero-section .form-overlay form textarea input[type=text]:focus, .hero-section .form-overlay form textarea [type=email]:focus, .hero-section .form-overlay form textarea textarea:focus {
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
+.hero-section .form-overlay form input[type=text]:focus, .hero-section .form-overlay form [type=email]:focus, .hero-section .form-overlay form textarea:focus {
+  outline: none;
   border-bottom-style: groove;
   padding: 0 0 0.875em 0;
 }
-.hero-section .form-overlay form input[type=text] ::-webkit-input-placeholder, .hero-section .form-overlay form [type=email] ::-webkit-input-placeholder, .hero-section .form-overlay form textarea ::-webkit-input-placeholder {
-  color: #474544;
+.hero-section .form-overlay form ::-webkit-input-placeholder {
+  color: #fff;
 }
-.hero-section .form-overlay form input[type=text] :-moz-placeholder, .hero-section .form-overlay form [type=email] :-moz-placeholder, .hero-section .form-overlay form textarea :-moz-placeholder {
+.hero-section .form-overlay form :-moz-placeholder {
   color: #fff;
   opacity: 1;
 }
-.hero-section .form-overlay form input[type=text] ::-moz-placeholder, .hero-section .form-overlay form [type=email] ::-moz-placeholder, .hero-section .form-overlay form textarea ::-moz-placeholder {
+.hero-section .form-overlay form ::-moz-placeholder {
   color: #fff;
   opacity: 1;
 }
-.hero-section .form-overlay form input[type=text] :-ms-input-placeholder, .hero-section .form-overlay form [type=email] :-ms-input-placeholder, .hero-section .form-overlay form textarea :-ms-input-placeholder {
+.hero-section .form-overlay form :-ms-input-placeholder {
+  color: #fff;
+}
+.hero-section .form-overlay form ::placeholder {
   color: #fff;
 }
 
