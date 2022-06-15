@@ -2,7 +2,7 @@
     display: grid;
     width: 100%;
     height: auto;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
     grid-gap: 1rem;
     justify-items: center;
@@ -13,7 +13,19 @@
         width: 300px;
         height: 300px;
         background-color: #fff;
+        background: linear-gradient(131.37deg, #FFFFFF 2.59%, #090B34 98.05%);
     }
     
 }
 
+@media screen and (min-width: 40em) and (max-width: 100em){
+    .gallery {
+        padding: 10% 15%;
+    }
+}
+
+@media screen and (min-width: 101em){
+    .gallery {
+        padding: 10% 20%;
+    }
+}
