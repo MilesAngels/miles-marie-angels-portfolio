@@ -627,6 +627,19 @@ body {
   height: calc(100vh + 70px);
 }
 
+.bg-color {
+  background-color: #210939;
+}
+.bg-color-space {
+  background-color: #182030;
+}
+.bg-color-ocean {
+  background-color: #090B34;
+}
+.bg-color-magic {
+  background-color: #12111F;
+}
+
 .site-header {
   height: 70px;
   width: 100%;
@@ -635,7 +648,6 @@ body {
   align-items: center;
   padding-top: 0.75em;
   z-index: 1;
-  background-color: #210939;
 }
 .site-header .site-branding {
   float: left;
@@ -767,7 +779,6 @@ body {
 }
 
 .site-footer {
-  background-color: #210939;
   width: 100%;
   height: auto;
   padding: 1em 1em;

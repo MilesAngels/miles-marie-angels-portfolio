@@ -7,6 +7,19 @@ body {
 	height: calc(100vh + 70px);
 }
 
+.bg-color {
+	background-color: #210939;
+	&-space {
+		background-color: #182030;
+	}
+	&-ocean {
+		background-color: #090B34;
+	}
+	&-magic {
+		background-color: #12111F;
+	}
+}
+
 .site-header {
 	height: 70px;
     width: 100%;
@@ -16,7 +29,7 @@ body {
 	align-items: center;
 	padding-top: 0.75em;
     z-index: 1;
-	background-color: #210939;
+	
 	//border-bottom: 1px solid #40282C;
 	.site-branding{
 		float: left;

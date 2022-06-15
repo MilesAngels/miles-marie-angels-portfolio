@@ -20,7 +20,17 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<!-- Change the background color of the body for each page -->
+<?php if(is_front_page()) :?>
+	<body class="bg-color" <?php body_class(); ?>>
+<?php elseif(is_page('about')) :?>
+	<body class="bg-color-space" <?php body_class(); ?>>
+<?php elseif(is_page('projects')) :?>
+	<body class="bg-color-space" <?php body_class(); ?>>
+<?php elseif(is_page('contact')) :?>
+	<body class="bg-color-magic" <?php body_class(); ?>>
+<?php endif;?>
+
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'miles-marie-angels' ); ?></a>
