@@ -918,11 +918,13 @@ body {
   grid-template-columns: 1fr;
   padding: 10% 0;
   justify-items: center;
+  align-items: center;
 }
 .credentials .skills, .credentials .background {
   text-align: center;
   width: 250px;
-  height: 500px;
+  height: 400px;
+  margin: 10% 0;
   background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
 }
 
@@ -944,6 +946,10 @@ body {
 
   .credentials {
     grid-template-columns: 1fr 1fr;
+  }
+  .credentials .skills, .credentials .background {
+    width: 300px;
+    height: 400px;
   }
 }
 /* Comments

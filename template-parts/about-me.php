@@ -12,6 +12,14 @@
 <section class="credentials">
     <div class="skills">
         <h3>Skillset</h3>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
     <div class="background">
         <h3>Background</h3>
