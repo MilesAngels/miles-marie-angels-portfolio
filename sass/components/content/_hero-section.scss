@@ -94,6 +94,13 @@
                 padding: 0 0 0.875em 0;
             }
 
+            button {
+                border: none;
+                background: #AB52C5;
+                border-radius: 10px;
+                color: #fff;
+            }
+
             ::-webkit-input-placeholder {
                 color: #fff;
             }

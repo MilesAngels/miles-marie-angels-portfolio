@@ -934,6 +934,12 @@ body {
   border-bottom-style: groove;
   padding: 0 0 0.875em 0;
 }
+.hero-section .form-overlay form button {
+  border: none;
+  background: #AB52C5;
+  border-radius: 10px;
+  color: #fff;
+}
 .hero-section .form-overlay form ::-webkit-input-placeholder {
   color: #fff;
 }
