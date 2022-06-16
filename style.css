@@ -873,9 +873,10 @@ body {
 }
 .hero-section .overlay .project-button {
   background: #F2A2A7;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 200px;
   vertical-align: middle;
+  border: none;
 }
 .hero-section .overlay .project-button a {
   text-decoration: none;
@@ -1041,7 +1042,6 @@ body {
   width: 300px;
   height: 300px;
   background: linear-gradient(131.37deg, #FFFFFF 2.59%, #090b34 98.05%);
-  text-align: center;
   color: #fff;
   padding: 10rem 0 0;
   max-width: 35ch;
@@ -1049,6 +1049,31 @@ body {
 .gallery .card-content {
   padding: 1em;
   background: linear-gradient(rgba(9, 11, 52, 0), #090b34);
+}
+.gallery .card-content .card-title {
+  position: relative;
+  width: max-content;
+}
+.gallery .card-content .card-title::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: calc(100% + 1rem);
+  left: -1rem;
+  bottom: 0;
+  background-color: aqua;
+}
+.gallery .card-content .redirect-button {
+  cursor: pointer;
+  width: max-content;
+  display: inline-block;
+  background: #fff;
+  color: #090b34;
+  border: none;
+  border-radius: 15px;
+}
+.gallery .card-content a {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 40em) and (max-width: 100em) {
