@@ -6,17 +6,25 @@
     grid-template-rows: auto;
     grid-gap: 1rem;
     justify-content: center;
-    //justify-items: center;
-    //align-content: center;
-    //grid-auto-flow: dense;
-    //margin: 0 auto;
     padding: 10% 0;
 
     .cards {
         width: 300px;
         height: 300px;
-        background-color: #fff;
-        background: linear-gradient(131.37deg, #FFFFFF 2.59%, #090B34 98.05%);
+        //background-color: #fff;
+        background: linear-gradient(131.37deg, #FFFFFF 2.59%, #090b34 98.05%);
+        text-align: center;
+        color: #fff;
+        padding: 10rem 0 0;
+        max-width: 35ch;
+    }
+
+    .card-content {
+        padding: 1em;
+        background: linear-gradient(
+            rgba(9, 11, 52, 0),
+            rgba(9, 11, 52, 1)
+        );
     }
     
 }
