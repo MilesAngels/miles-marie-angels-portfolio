@@ -906,6 +906,8 @@ body {
   position: relative;
   margin: 0 auto;
   width: 400px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px;
 }
 .hero-section .form-overlay form input[type=text], .hero-section .form-overlay form [type=email], .hero-section .form-overlay form textarea {
   background: none;
@@ -956,6 +958,17 @@ body {
   color: #fff;
 }
 .hero-section .form-overlay form ::placeholder {
+  color: #fff;
+}
+.hero-section .form-overlay .social-media {
+  position: relative;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+  color: #fff;
+}
+.hero-section .form-overlay .social-media i {
+  padding: 0 10px;
   color: #fff;
 }
 

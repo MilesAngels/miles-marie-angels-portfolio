@@ -13,13 +13,16 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+<script src="https://kit.fontawesome.com/6b35074062.js" crossorigin="anonymous"></script>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
 </head>
-
+<div class="preloader">
+	<div class="heart"></div>
+</div>
 <!-- Change the background color of the body for each page -->
 <?php if(is_front_page()) :?>
 	<body class="bg-color" <?php body_class(); ?>>
