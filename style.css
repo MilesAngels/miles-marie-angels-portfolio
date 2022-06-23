@@ -634,7 +634,8 @@ body {
   background-color: #182030;
 }
 .bg-color-ocean {
-  background-color: #090B34;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
 }
 .bg-color-magic {
   background-color: #12111F;
@@ -729,6 +730,8 @@ body {
   right: 0;
   margin: 30px 0 0 0px;
   text-align: center;
+  transform: translateY(0%);
+  transition: transform 5s ease-out;
   background-color: #fff;
   padding: 0;
 }
@@ -937,7 +940,7 @@ body {
   border-bottom-style: groove;
   padding: 0 0 0.875em 0;
 }
-.hero-section .form-overlay form button {
+.hero-section .form-overlay form input[type=submit] {
   border: none;
   background: #AB52C5;
   border-radius: 10px;
@@ -1047,7 +1050,7 @@ body {
   height: auto;
   grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
   grid-template-rows: auto;
-  grid-gap: 1rem;
+  grid-gap: 2rem !important;
   justify-content: center;
   padding: 10% 0;
 }
@@ -1058,10 +1061,14 @@ body {
   color: #fff;
   padding: 10rem 0 0;
   max-width: 35ch;
+  border-radius: 10px;
+  border: 1px solid #fff;
 }
 .gallery .card-content {
+  border-radius: 10px;
   padding: 1em;
   background: linear-gradient(rgba(9, 11, 52, 0), #090b34);
+  border-bottom: 1px solid #fff;
 }
 .gallery .card-content .card-title {
   position: relative;

@@ -4,7 +4,7 @@
     height: auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     grid-template-rows: auto;
-    grid-gap: 1rem;
+    grid-gap: 2rem !important;
     justify-content: center;
     padding: 10% 0;
 
@@ -15,14 +15,18 @@
         color: #fff;
         padding: 10rem 0 0;
         max-width: 35ch;
+        border-radius: 10px;
+        border: 1px solid #fff;
     }
 
     .card-content {
+        border-radius: 10px;
         padding: 1em;
         background: linear-gradient(
             rgba(9, 11, 52, 0),
             rgba(9, 11, 52, 1)
         );
+        border-bottom: 1px solid #fff;
 
         .card-title {
             position: relative;
