@@ -11,7 +11,7 @@
     <div class="cards" style="background:url('<?php the_field('image_2'); ?>') center center; background-size: cover; background-repeat: no-repeat;">
         <div class="card-content">
             <h2 class="card-title"><?php the_field('website_name_2'); ?></h2>
-            <a href="#">
+            <a href="https://milesangels.github.io/astronomy-exs/">
                 <button class="redirect-button">Learn More!</button>
             </a>
         </div>

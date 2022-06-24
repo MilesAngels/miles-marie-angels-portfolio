@@ -20,9 +20,7 @@
 
 	<?php wp_head(); ?>
 </head>
-<div class="preloader">
-	<div class="heart"></div>
-</div>
+
 <!-- Change the background color of the body for each page -->
 <?php if(is_front_page()) :?>
 	<body class="bg-color" <?php body_class(); ?>>
@@ -35,6 +33,7 @@
 <?php endif;?>
 
 <?php wp_body_open(); ?>
+<!-- preloader -->
 <div id="page" class="site">
 <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'miles-marie-angels' ); ?></a>
 	<header id="masthead" class="site-header">
