@@ -147,6 +147,10 @@ function miles_marie_angels_scripts() {
 	wp_enqueue_style( 'miles-marie-angels-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'miles-marie-angels-style', 'rtl', 'replace' );
 
+	//adding google fonts
+	wp_enqueue_style('Montserrat', 'https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+	wp_enqueue_style('Niconne', 'https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
 	wp_enqueue_script( 'miles-marie-angels-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'miles-marie-angels-preloader', get_template_directory_uri() . '/js/preloader.js', array(), _S_VERSION, true);
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

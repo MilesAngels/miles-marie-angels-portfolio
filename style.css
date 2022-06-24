@@ -646,9 +646,11 @@ body {
   width: 100%;
   display: flex;
   position: sticky;
+  font-size: 0.8em;
   align-items: center;
   padding-top: 0.75em;
   z-index: 1;
+  font-family: "Montserrat";
 }
 .site-header .site-branding {
   float: left;
@@ -826,6 +828,14 @@ body {
 }
 /* Preloader
 --------------------------------------------- */
+#animation img {
+  display: none;
+}
+
+#animation img:first-child {
+  display: block;
+}
+
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -872,6 +882,7 @@ body {
   bottom: 0;
   padding: 30px 15px;
   line-height: 0.25em;
+  font-family: "Montserrat";
 }
 .hero-section .overlay p {
   font-size: 1.7em;
@@ -1064,7 +1075,6 @@ body {
   padding: 10rem 0 0;
   max-width: 35ch;
   border-radius: 10px;
-  border: 1px solid #fff;
 }
 .gallery .card-content {
   border-radius: 10px;

@@ -35,6 +35,7 @@
 <?php wp_body_open(); ?>
 <!-- preloader -->
 <div id="page" class="site">
+	<?php get_template_part('content/preloader'); ?>
 <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'miles-marie-angels' ); ?></a>
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
