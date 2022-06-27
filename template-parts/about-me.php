@@ -11,12 +11,20 @@
         <h3><a href="<?php echo get_permalink(get_page_by_path('art'))?>">My Art &#x2192;</a></h3>
     </div>
 </section>
+
 <section class="credentials">
     <div class="skills">
         <h3>Skillset</h3>
-        
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>Bootstrap</p>
+        <p>PHP</p>
+        <p>Responsive Design</p>
+
     </div>
     <div class="background">
         <h3>Background</h3>
+        <p></p>
     </div>
 </section>

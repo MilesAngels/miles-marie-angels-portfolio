@@ -829,11 +829,29 @@ html, body {
 }
 /* Preloader
 --------------------------------------------- */
-#animation img {
-  display: none;
+.preloader {
+  /*
+  Making the preloader floating over other elements.
+  The preloader is visible by default. 
+  */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-#animation img:first-child {
+.preloader #animation1 img, .preloader #animation2 img, .preloader #animation3 img {
+  display: none;
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(5px 10px 36px #ff0000);
+}
+.preloader #animation1 img:first-child {
   display: block;
 }
 
