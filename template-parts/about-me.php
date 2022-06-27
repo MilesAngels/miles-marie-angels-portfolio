@@ -1,6 +1,8 @@
 <section class="about-me-container">
     <div class="about-image-container">
-        <div class="about-image"></div>
+        <div class="about-image">
+            <img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/20220624_161631-scaled.jpg" alt="">
+        </div>
     </div>
     <div class="about-text">
         <h2>About Me</h2>
