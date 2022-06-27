@@ -15,8 +15,8 @@
     align-items: center;
     #animation1 img, #animation2 img, #animation3 img {
         display: none;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         filter: drop-shadow(5px 10px 36px #ff0000);
     }
     #animation1 img:first-child {

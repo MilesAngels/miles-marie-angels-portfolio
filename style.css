@@ -847,8 +847,8 @@ html, body {
 }
 .preloader #animation1 img, .preloader #animation2 img, .preloader #animation3 img {
   display: none;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   filter: drop-shadow(5px 10px 36px #ff0000);
 }
 .preloader #animation1 img:first-child {

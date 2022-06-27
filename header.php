@@ -43,16 +43,6 @@
 		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border-sh.png" />
 		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border.png" />
 	</div>
-	<div id="animation2">
-		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border-half.png" />
-		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border-sh.png" />
-		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border.png" />
-	</div>
-	<div id="animation3">
-		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border-half.png" />
-		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border-sh.png" />
-		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border.png" />
-	</div>
 </div>
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
