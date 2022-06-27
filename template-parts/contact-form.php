@@ -36,3 +36,6 @@
         <a href=""><i class="fa-brands fa-github fa-2x"></i></a>
     </article>
 </section> 
+<section class="buffer">
+
+</section>

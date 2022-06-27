@@ -62,6 +62,7 @@
             position: relative;
             margin: 0 auto;
             width: 400px;
+            height: fit-content;
             background: rgba(0, 0, 0, 0.4);
             padding: 15px;
             input[type='text'], [type='email'], textarea {
@@ -92,7 +93,7 @@
             input[type='text']:focus, [type='email']:focus, textarea:focus {
                 outline: none;
                 border-bottom-style: groove;
-                padding: 0 0 0.875em 0;
+                padding: 0 0 0.5em 0;
             }
 
             input[type='submit'] {
@@ -102,6 +103,19 @@
                 display: block;
                 margin: 0 auto;
                 color: #fff;
+            }
+
+            .wpcf7-not-valid-tip {
+                height: 20px;
+            }
+
+            .wpcf7 form .wpcf7-response-output {
+                margin: 0;
+                
+            }
+
+            .message {
+                height: 100px;
             }
 
             ::-webkit-input-placeholder {
@@ -155,10 +169,7 @@
             // .fa-github {
             //     color: #171515;
             // }
-        }
-
-        
-        
+        } 
         
     }
 }

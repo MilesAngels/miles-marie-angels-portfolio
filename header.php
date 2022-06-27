@@ -24,7 +24,7 @@
 <!-- Change the background color of the body for each page -->
 <?php if(is_front_page()) :?>
 	<body class="bg-color" <?php body_class(); ?>>
-<?php elseif(is_page('about')) :?>
+<?php elseif(is_page('about') || is_page('art')) :?>
 	<body class="bg-color-space" <?php body_class(); ?>>
 <?php elseif(is_page('projects')) :?>
 	<body class="bg-color-ocean" <?php body_class(); ?>>

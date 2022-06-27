@@ -624,7 +624,7 @@ textarea {
 }
 
 body {
-  height: calc(100vh + 70px);
+  height: 100%;
 }
 
 .bg-color {
@@ -922,6 +922,7 @@ body {
   position: relative;
   margin: 0 auto;
   width: 400px;
+  height: fit-content;
   background: rgba(0, 0, 0, 0.4);
   padding: 15px;
 }
@@ -951,7 +952,7 @@ body {
 .hero-section .form-overlay form input[type=text]:focus, .hero-section .form-overlay form [type=email]:focus, .hero-section .form-overlay form textarea:focus {
   outline: none;
   border-bottom-style: groove;
-  padding: 0 0 0.875em 0;
+  padding: 0 0 0.5em 0;
 }
 .hero-section .form-overlay form input[type=submit] {
   border: none;
@@ -960,6 +961,15 @@ body {
   display: block;
   margin: 0 auto;
   color: #fff;
+}
+.hero-section .form-overlay form .wpcf7-not-valid-tip {
+  height: 20px;
+}
+.hero-section .form-overlay form .wpcf7 form .wpcf7-response-output {
+  margin: 0;
+}
+.hero-section .form-overlay form .message {
+  height: 100px;
 }
 .hero-section .form-overlay form ::-webkit-input-placeholder {
   color: #fff;
