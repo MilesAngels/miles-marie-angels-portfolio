@@ -10,7 +10,7 @@
         </div>
     <?php elseif (is_page() && !is_page('contact')): ?>
         <div class="overlay center">
-            <h1><?php the_field('overlay_text'); ?></h1>
+            <h1 class="beau-rivage"><?php the_field('overlay_text'); ?></h1>
 
         </div>
     <?php elseif (is_page('contact')):?>
