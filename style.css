@@ -845,11 +845,11 @@ html, body {
   justify-content: center;
   align-items: center;
 }
-.preloader #animation1 img, .preloader #animation2 img, .preloader #animation3 img {
+.preloader #animation1 img {
   display: none;
   width: 200px;
   height: 200px;
-  filter: drop-shadow(5px 10px 36px #ff0000);
+  filter: drop-shadow(5px 30px 67px #ff0000);
 }
 .preloader #animation1 img:first-child {
   display: block;

@@ -1,6 +1,23 @@
 window.addEventListener('load', () => {
     const preloader = document.querySelector('.preloader');
     const animation = document.getElementById('animation1');
+
+    //Fade out function
+    function fadeOut() {
+        var initOpacity = 1;
+        var timer = setInterval(() => {
+            if(initOpacity <= 0.1){
+                clearInterval(timer);
+                preloader.style.display = "none";
+            }
+
+            preloader.style.opacity = initOpacity;
+            preloader.style.filter = 'alpha(opacity' + initOpacity * 100 + ")";
+            initOpacity -= initOpacity * 0.1;
+            
+        }, 250);
+    }
+
     setTimeout(() => {
         const frames = document.getElementById("animation1").children;
         console.log(frames);
@@ -9,10 +26,12 @@ window.addEventListener('load', () => {
         setInterval(function () { 
             frames[i % frameCount].style.display = "none";
             frames[++i % frameCount].style.display = "block";
-        }, 250);
-    }, 1000);
+        }, 150);
+        //animation.remove();
+    }, 600);
     setTimeout(() => {
-        preloader.style.display = "none";
+        //preloader.style.display = "none";
+        fadeOut();
         animation.remove();
     }, 4000);
 }); 

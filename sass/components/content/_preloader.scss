@@ -13,12 +13,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    #animation1 img, #animation2 img, #animation3 img {
+
+    #animation1 img {
         display: none;
         width: 200px;
         height: 200px;
-        filter: drop-shadow(5px 10px 36px #ff0000);
+        filter: drop-shadow(5px 30px 67px #ff0000);
     }
+
     #animation1 img:first-child {
         display: block;
     }
