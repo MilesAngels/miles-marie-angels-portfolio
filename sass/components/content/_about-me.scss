@@ -8,15 +8,10 @@
        width: 100%;
        
        .about-image {
-            width: 250px;
-            height: 300px;
             background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
             margin: 0 auto;
-
-            img {
-                height: fit-content;
-                filter: brightness(80%);
-            }
+            //height: fit-content;
+            filter: brightness(80%);
        }
     }
     .about-text {
