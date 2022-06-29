@@ -640,6 +640,11 @@ html, body {
   font-family: "Beau Rivage", cursive;
 }
 
+.weight-600 {
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
 .bg-color {
   background-color: #210939;
 }
@@ -896,7 +901,7 @@ html, body {
 .hero-section {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
 }
 .hero-section .hero-image {
   width: 100%;
@@ -941,9 +946,8 @@ html, body {
 .hero-section .form-overlay {
   position: absolute;
   width: 100%;
-  height: 250px;
+  height: 100vh;
   color: #fff;
-  bottom: 60%;
   padding: 30px 15px;
   line-height: 0.25em;
   text-align: center;
@@ -952,10 +956,13 @@ html, body {
 .hero-section .form-overlay form {
   position: relative;
   margin: 0 auto;
-  width: 400px;
+  width: fit-content;
   height: fit-content;
   background: rgba(0, 0, 0, 0.4);
-  padding: 15px;
+  padding: 50px;
+}
+.hero-section .form-overlay form h1 {
+  padding-bottom: 30px;
 }
 .hero-section .form-overlay form input[type=text], .hero-section .form-overlay form [type=email], .hero-section .form-overlay form textarea {
   background: none;
@@ -1021,7 +1028,7 @@ html, body {
 }
 .hero-section .form-overlay .social-media {
   position: relative;
-  width: 400px;
+  width: fit-content;
   background: rgba(0, 0, 0, 0.4);
   margin: 0 auto;
   color: #fff;
@@ -1029,6 +1036,16 @@ html, body {
 .hero-section .form-overlay .social-media i {
   padding: 0 10px;
   color: #fff;
+}
+
+.name {
+  font-family: "Mr Dafoe";
+  margin: 0;
+  font-size: 5.5em;
+  color: white;
+  letter-spacing: 0.25rem;
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+  transform: rotate(-10deg);
 }
 
 .about-me-container {
