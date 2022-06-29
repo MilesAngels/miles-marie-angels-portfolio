@@ -1,4 +1,4 @@
-<p class="heading">Art Gallery</p>
+<h1 class="heading name">Art Gallery</h1>
   <div class="gallery-image">
     <div class="img-box">
       <img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/Cat-in-the-clouds.jpg" alt="" />

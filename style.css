@@ -1038,6 +1038,7 @@ textarea {
   font-family: "Mr Dafoe";
   margin: 0;
   font-size: 5.5em;
+  word-spacing: 1em;
   color: white;
   letter-spacing: 0.25rem;
   text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
@@ -1175,7 +1176,7 @@ textarea {
 }
 .heading {
   text-align: center;
-  font-size: 2em;
+  font-size: 5.5em;
   letter-spacing: 1px;
   padding: 40px;
   color: white;

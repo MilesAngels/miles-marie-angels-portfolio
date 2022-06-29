@@ -6,14 +6,14 @@ window.addEventListener('load', () => {
     function fadeOut() {
         var initOpacity = 1;
         var timer = setInterval(() => {
-            if(initOpacity <= 0.1){
+            if(initOpacity <= 0.3){
                 clearInterval(timer);
                 preloader.style.display = "none";
             }
 
             preloader.style.opacity = initOpacity;
             preloader.style.filter = 'alpha(opacity' + initOpacity * 100 + ")";
-            initOpacity -= initOpacity * 0.1;
+            initOpacity -= initOpacity * 0.2;
             
         }, 250);
     }
