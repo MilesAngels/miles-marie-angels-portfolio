@@ -829,7 +829,7 @@ textarea {
   color: #fff;
 }
 .footer-column .copyright p {
-  padding: 30px 0 0 0;
+  padding: 30px 0 30px 0;
 }
 
 @media screen and (max-width: 37.5em) {
@@ -866,6 +866,11 @@ textarea {
 }
 .preloader #animation1 img:first-child {
   display: block;
+}
+.preloader .disable-scroll {
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
 }
 
 /* Posts and pages
@@ -1082,9 +1087,10 @@ textarea {
   align-items: center;
 }
 .credentials .skills, .credentials .background {
+  display: grid;
   text-align: center;
   width: 250px;
-  height: 400px;
+  height: auto;
   margin: 10% 0;
   background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
   font-size: 1.25em;
@@ -1097,6 +1103,9 @@ textarea {
   font-size: 2em;
   font-family: "Montserrat";
   font-weight: 700;
+}
+.credentials .skills .icons {
+  width: 64px;
 }
 
 @media screen and (min-width: 40em) {
@@ -1125,8 +1134,6 @@ textarea {
 }
 .gallery {
   display: grid !important;
-  width: cover;
-  height: 200vh;
   grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
   grid-template-rows: auto;
   grid-gap: 2rem !important;

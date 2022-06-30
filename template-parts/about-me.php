@@ -14,12 +14,15 @@
 <section class="credentials">
     <div class="skills">
         <h3>Skillset</h3>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        <p>Bootstrap</p>
-        <p>PHP</p>
-        <p>Responsive Design</p>
+        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/html-5.png"></p>
+        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/css-3.png" alt=""></p>
+        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/sass.png" alt=""></p>
+        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/js.png" alt=""></i></p>
+        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/github.png" alt=""></p>
+        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/bootstrap-1.png" alt=""></p>
+        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/php.png" alt=""></p>
+        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/figma.png" alt=""></i></p>
+        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/c-.png" alt=""></p>
 
     </div>
     <div class="background">

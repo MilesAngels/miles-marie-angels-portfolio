@@ -24,5 +24,11 @@
     #animation1 img:first-child {
         display: block;
     }
+
+    .disable-scroll{
+        height: 100%;
+        overflow: hidden;
+        position: fixed;
+      }
 }
 

@@ -40,9 +40,11 @@
     align-items: center;
 
     .skills, .background {
+        display: grid;
+        //grid-template-columns: ;
         text-align: center;
         width: 250px;
-        height: 400px;
+        height: auto;
         margin: 10% 0;
         background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
         font-size: 1.25em;
@@ -52,11 +54,15 @@
             }
         //add hover effect
     }
-
+    
     .skills h3, .background h3 {
         font-size: 2em;
         font-family: 'Montserrat';
         font-weight: 700;
+    }
+
+    .skills .icons {
+        width: 64px;
     }
 }
 

@@ -140,6 +140,22 @@ function miles_marie_angels_widgets_init() {
 }
 add_action( 'widgets_init', 'miles_marie_angels_widgets_init' );
 
+function miles_marie_angels_footer_widgets_init() {
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Footer Widget Area', 'miles-marie-angels' ),
+			'id'            => 'footer-widget-area',
+			'description'   => esc_html__( 'Add widgets here.', 'miles-marie-angels' ),
+			'before_widget' => '<section">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="footerTitle">',
+			'after_title'   => '</h2>',
+		)
+	);
+}
+add_action( 'widgets_init', 'miles_marie_angels_footer_widgets_init' );
+
+
 /**
  * Enqueue scripts and styles.
  */

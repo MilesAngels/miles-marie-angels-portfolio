@@ -2,6 +2,7 @@ window.addEventListener('load', () => {
     const preloader = document.querySelector('.preloader');
     const animation = document.getElementById('animation1');
 
+
     //Fade out function
     function fadeOut() {
         var initOpacity = 1;
