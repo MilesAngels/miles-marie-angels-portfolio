@@ -30,6 +30,8 @@
 	<body class="bg-color-ocean" <?php body_class(); ?>>
 <?php elseif(is_page('contact')) :?>
 	<body class="bg-color-magic" <?php body_class(); ?>>
+<?php elseif(is_single()) :?>
+	<body class="bg-color" <?php body_class(); ?>>
 <?php endif;?>
 
 <?php wp_body_open(); ?>

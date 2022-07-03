@@ -27,7 +27,7 @@
     <div class="cards" style="background:url('<?php the_field('image_4'); ?>') center center; background-size: cover; background-repeat: no-repeat;">
         <div class="card-content">
             <h2 class="card-title"><?php the_field('website_name_4'); ?></h2>
-            <a href="https://milesangels.github.io/FinalProject/index.html">
+            <a href="https://milesangels.github.io/Fancy-box/">
                 <button class="redirect-button">Learn More!</button>
             </a>
         </div>

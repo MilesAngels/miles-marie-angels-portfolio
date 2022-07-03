@@ -4,7 +4,7 @@
       <img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/Cat-in-the-clouds.jpg" alt="" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Cat in the Clouds</p>
+          <p><a href="http://miles-marie-angels.local/cat-in-the-clouds/">Cat in the Clouds</a></p>
           <p class="opacity-low">Miles Angels</p>
         </div>
       </div> 

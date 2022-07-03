@@ -26,7 +26,7 @@ window.addEventListener('load', () => {
 
     setTimeout(() => {
         const frames = document.getElementById("animation1").children;
-        console.log(frames);
+        //console.log(frames);
         const frameCount = frames.length;
         let i = 0;
         setInterval(function () { 
@@ -39,7 +39,7 @@ window.addEventListener('load', () => {
         //preloader.style.display = "none";
         fadeOut();
         animation.remove();
-        document.body.style.overflow = "visible";
+        document.body.style.overflowY = "visible";
     }, 4000);
 }); 
 
