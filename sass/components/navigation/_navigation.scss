@@ -23,7 +23,8 @@
 }
 
 .bg-color {
-	background-color: #210939;
+	background-color: rgb(63,37,85);
+	background-image: linear-gradient(180deg, rgba(63,37,85,1) 0%, rgba(36,10,58,1) 50%);
 	&-space {
 		background-color: #182030;
 	}

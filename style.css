@@ -642,7 +642,8 @@ textarea {
 }
 
 .bg-color {
-  background-color: #210939;
+  background-color: #3f2555;
+  background-image: linear-gradient(180deg, #3f2555 0%, #240a3a 50%);
 }
 .bg-color-space {
   background-color: #182030;
@@ -848,15 +849,24 @@ textarea {
   The preloader is visible by default. 
   */
   position: fixed;
+  overflow: hidden;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   z-index: 1000;
   background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.preloader [aria-hidden=true] {
+  display: none;
+}
+.preloader [aria-hidden=false] {
+  display: block;
 }
 .preloader #animation1 img {
   display: none;
@@ -867,10 +877,9 @@ textarea {
 .preloader #animation1 img:first-child {
   display: block;
 }
-.preloader .disable-scroll {
-  height: 100%;
+
+.disable-scroll {
   overflow: hidden;
-  position: fixed;
 }
 
 /* Posts and pages

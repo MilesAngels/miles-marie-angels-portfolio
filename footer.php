@@ -66,7 +66,13 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-
+<div class="preloader">
+	<div id="animation1">
+		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border-half.png" />
+		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border-sh.png" />
+		<img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/heart-border.png" />
+	</div>
+</div>
 <?php wp_footer(); ?>
 </body>
 </html>

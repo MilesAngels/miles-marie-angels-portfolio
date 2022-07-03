@@ -4,15 +4,21 @@
     The preloader is visible by default. 
     */
     position: fixed;
+    overflow: hidden;
     top: 0;
+    right: 0;
+    bottom: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     z-index: 1000;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    [aria-hidden="true"] {display: none;}
+    [aria-hidden="false"] {display: block;}
 
     #animation1 img {
         display: none;
@@ -24,11 +30,8 @@
     #animation1 img:first-child {
         display: block;
     }
-
-    .disable-scroll{
-        height: 100%;
-        overflow: hidden;
-        position: fixed;
-      }
 }
 
+.disable-scroll{
+    overflow: hidden;
+}

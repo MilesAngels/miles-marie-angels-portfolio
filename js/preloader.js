@@ -1,8 +1,13 @@
+
 window.addEventListener('load', () => {
     const preloader = document.querySelector('.preloader');
     const animation = document.getElementById('animation1');
+    //Disable Scroll 
+    function disableScrolling () {
+        document.body.style.overflow = "hidden"; 
+    }
 
-
+    disableScrolling();
     //Fade out function
     function fadeOut() {
         var initOpacity = 1;
@@ -34,6 +39,7 @@ window.addEventListener('load', () => {
         //preloader.style.display = "none";
         fadeOut();
         animation.remove();
+        document.body.style.overflow = "visible";
     }, 4000);
 }); 
 
