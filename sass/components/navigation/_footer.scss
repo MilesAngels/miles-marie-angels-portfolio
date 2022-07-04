@@ -5,8 +5,17 @@
     padding: 1em 1em;
     text-align: center;
     color: #fff;
+    
 }
-
+.copyright {
+        
+    p {
+        
+        text-align: center;
+        color: #fff;
+        
+    }
+}
 .footer-column {
     display: flex;
     flex-direction: row;
@@ -33,15 +42,21 @@
             line-height: 2em;
             color: #fff;
         }
-    }
-    
-    .copyright {
-        //color: #fff;
-        p {
-            padding: 30px 0 30px 0;
-            
+
+        .wp-container-6 {
+            gap: 0;
+        }
+
+        
+
+        .wp-image-140, .wp-image-137, .wp-image-134, .wp-image-139, .wp-image-138 {
+            height: 38px;
+            width: 38px;
+            padding: 0;
+            margin: 0;
         }
     }
+    
     
 }
 
@@ -51,6 +66,10 @@
 
         .footer-container {
             padding-bottom: 1.5em;
+
+            .wp-container-6 {
+                gap: 0;
+            }
         }
     
     }

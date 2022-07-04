@@ -146,7 +146,7 @@ function miles_marie_angels_footer_widgets_init() {
 			'name'          => esc_html__( 'Footer Widget Area', 'miles-marie-angels' ),
 			'id'            => 'footer-widget-area',
 			'description'   => esc_html__( 'Add widgets here.', 'miles-marie-angels' ),
-			'before_widget' => '<section">',
+			'before_widget' => '<section>',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="footerTitle">',
 			'after_title'   => '</h2>',
