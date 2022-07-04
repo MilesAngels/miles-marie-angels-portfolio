@@ -1,6 +1,60 @@
 <section class="hero-section">
-    <img src="<?php the_field('hero-image');?>" class="hero-image">
-        
+    <?php if(!is_page('projects')):?>
+        <img src="<?php the_field('hero-image');?>" class="hero-image">
+    <?php elseif(is_page('projects')):?>
+        <div class="water">
+            <div class="grid">
+            <!--   div  1   -->
+                <div class="big-bubbles">
+                <div class="tiny-bubbles"></div>
+                <div class="medium-bubbles"></div>
+                </div>
+            <!-- div 2 -->
+                <div class="small-bubbles">
+                <div class="medium-bubbles"></div>
+                <div class="tiny-bubbles">
+                    <div class="big-bubbles"></div>
+                </div>
+                </div>
+            <!-- div 3 -->
+                <div class="medium-bubbles">
+                <div class="tiny-bubbles"></div>
+                <div class="small-bubbles"></div>
+                </div>
+
+            <!-- div 4 -->
+                <div class="tiny-bubbles">
+                <div class="medium-bubbles">
+                    <div class="tiny-bubbles"></div>
+                </div>
+                <div class="small-bubbles"></div>
+                </div>
+            <!-- div 5 -->
+                <div class="small-bubbles">
+                <div class="tiny-bubbles"></div>
+                <div class="tiny-bubbles"></div>
+                <div class="small-bubbles"></div>
+                </div>
+            <!-- div 6 -->
+                <div class="medium-bubbles">
+                <div class="tiny-bubbles"></div>
+                <div class="small-bubbles"></div>
+                </div> 
+                <!--   div  7   -->
+                <div class="big-bubbles">
+                <div class="tiny-bubbles"></div>
+                <div class="medium-bubbles"></div>
+                </div>
+                <!-- div 5 -->
+                <div class="small-bubbles">
+                <div class="tiny-bubbles"></div>
+                <div class="tiny-bubbles"></div>
+                <div class="small-bubbles"></div>
+                </div>
+            </div>
+            </div>
+    <?php endif; ?> 
+
     <!-- Display when it is the front-page -->
     <?php if(is_front_page()):?>
         <div class="overlay">
