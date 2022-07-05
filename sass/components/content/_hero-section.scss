@@ -19,8 +19,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #537895;
-        background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+        //background-color: #537895;
+        //background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
         overflow-y: hidden;
       }
       
@@ -301,3 +301,9 @@
     transform: rotate(-10deg);
   }
  
+
+  @media screen and (min-width:758px) {
+    .name {
+        font-size: 3em;
+      }
+  }
