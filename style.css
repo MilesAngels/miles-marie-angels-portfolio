@@ -834,10 +834,16 @@ textarea {
   line-height: 2em;
   color: #fff;
 }
-.footer-column .footer-container .wp-container-6 {
+.footer-column .footer-container .wp-container-2 {
   gap: 0;
 }
-.footer-column .footer-container .wp-image-140, .footer-column .footer-container .wp-image-137, .footer-column .footer-container .wp-image-134, .footer-column .footer-container .wp-image-139, .footer-column .footer-container .wp-image-138 {
+.footer-column .footer-container .size-large {
+  width: 2%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.footer-column .footer-container .wp-image-140, .footer-column .footer-container .wp-image-134, .footer-column .footer-container .wp-image-138 {
   height: 38px;
   width: 38px;
   padding: 0;
@@ -1216,7 +1222,7 @@ textarea {
   width: 250px;
   height: auto;
   margin: 10% 0;
-  background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
+  background: white;
   font-size: 1.25em;
 }
 .credentials .skills p, .credentials .background p {
@@ -1227,9 +1233,18 @@ textarea {
   font-size: 2em;
   font-family: "Montserrat";
   font-weight: 700;
+  margin: 10px 0 10px 0;
 }
-.credentials .skills .icons {
-  width: 64px;
+.credentials .skills article {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+.credentials .skills article .icons {
+  width: 100px;
+  padding: 15px;
+  filter: drop-shadow(0px 10px 4px rgba(50, 50, 93, 0.25));
 }
 
 @media screen and (min-width: 40em) {

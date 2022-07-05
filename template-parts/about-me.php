@@ -14,16 +14,17 @@
 <section class="credentials">
     <div class="skills">
         <h3>Skillset</h3>
-        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/html-5.png"></p>
-        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/css-3.png" alt=""></p>
-        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/sass.png" alt=""></p>
-        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/js.png" alt=""></i></p>
-        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/github.png" alt=""></p>
-        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/bootstrap-1.png" alt=""></p>
-        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/php.png" alt=""></p>
-        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/figma.png" alt=""></i></p>
-        <p><img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/c-.png" alt=""></p>
-
+        <article>
+            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/html-5.png">
+            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/css-3.png" alt="">
+            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/sass.png" alt="">
+            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/js.png" alt=""></i>
+            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/github.png" alt="">
+            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/bootstrap-1.png" alt="">
+            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/php.png" alt="">
+            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/figma.png" alt=""></i>
+            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/c-.png" alt="">
+        </article>
     </div>
     <div class="background">
         <h3>Background</h3>
