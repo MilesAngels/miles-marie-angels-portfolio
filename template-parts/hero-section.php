@@ -1,7 +1,5 @@
 <section class="hero-section">
-    <?php if(!is_page('projects')):?>
-        <img src="<?php the_field('hero-image');?>" class="hero-image">
-    <?php elseif(is_page('projects')):?>
+    <?php if(is_page('projects')):?>
         <div class="water">
             <div class="grid">
             <!--   div  1   -->
@@ -53,8 +51,12 @@
                 </div>
             </div>
             </div>
+    <?php elseif(is_page('about')):?>
+        <?php get_template_part('template-parts/stars');?>
+    <?php else:?>
+        <img src="<?php the_field('hero-image');?>" class="hero-image">
     <?php endif; ?> 
-
+    
     <!-- Display when it is the front-page -->
     <?php if(is_front_page()):?>
         <div class="overlay">
