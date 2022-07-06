@@ -60,7 +60,7 @@
     <!-- Display when it is the front-page -->
     <?php if(is_front_page()):?>
         <div class="overlay">
-            <p>Hey! My name is Miles.</p>
+            <p>Hey! My name is Miles.</p><br>
             <p>I'm a WordPress developer.</p>
             <button class="project-button"><a href="<?php echo get_permalink(get_page_by_path('projects'))?>">See my work</a></button>
         </div>

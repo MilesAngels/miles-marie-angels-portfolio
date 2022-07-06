@@ -4,8 +4,8 @@
     </div>
     <div class="about-text">
         <h2 class="montserrat">Hi, I'm Miles Angels!</h2>
-        <p>I am aspiring Wordpress Developer apprentice who enjoys problem solving: be it in web developing or mathematics. Creating accessible websites has been a passion of mine and making sure everyone can have equal oportunity to enjoy the websites I create.</p>
-        <p>Playing vidoegames and creating art are some of my hobbies. I have been slowly discovering the wonders of digital art and am working towards being good at it.</p>
+        <p>I am an aspiring Wordpress Developer apprentice who enjoys problem solving: be it in web developing or a puzzle. Creating accessible websites has been a passion of mine and making sure everyone can have the opportunity to enjoy the websites I create.</p>
+        <p>Playing vidoegames and creating art are some of my hobbies. I have been slowly discovering the wonders of digital art and CSS art. I find that creating things that spring from my imagination to be my form of relaxation.</p>
         <h3><a href="<?php echo get_permalink(get_page_by_path('projects'))?>">My Projects &#x2192;</a></h3>
         <h3><a href="<?php echo get_permalink(get_page_by_path('art'))?>">My Art &#x2192;</a></h3>
     </div>
@@ -28,6 +28,9 @@
     </div>
     <div class="background">
         <h3>Background</h3>
-        <p></p>
+        <p>I am originally from the Philippines. My mother and I migrated to the United States when I was 16 years old. I struggled to find my passion to do anything. That is until I came accross the Computer Science program in Sacramento City College where I was currently enrolled in to the nursing pathway. I was unhappy with the nursing program so I decided to drop it and transition to Computer Science.
+        It was one of the best decisions of my life.
+        </p>
+        
     </div>
 </section>

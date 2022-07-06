@@ -38,16 +38,18 @@
     padding: 10% 0;
     justify-items: center;
     align-items: center;
-
+    background: white;
     .skills, .background {
         display: grid;
         //grid-template-columns: ;
         text-align: center;
         width: 300px;
         height: auto;
+        min-height: 300px;
         margin: 10% 0;
+        padding: 20px;
         //background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
-        background: white;
+        
         font-size: 1.25em;
             p {
                 font-weight: 500;
@@ -78,7 +80,9 @@
         
     }
 
-
+    .background p {
+        font-weight: 400;
+    }
     
 }
 
