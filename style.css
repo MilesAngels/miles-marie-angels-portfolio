@@ -653,7 +653,7 @@ textarea {
   background-image: linear-gradient(120deg, #000000 10%, #04619f 74%);
 }
 .bg-color-magic {
-  background-color: #12111F;
+  background-color: #140e35;
 }
 
 .site-header {
@@ -1077,100 +1077,6 @@ textarea {
   line-height: 150px;
   top: 45%;
 }
-.hero-section .form-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  vertical-align: center;
-  color: #fff;
-  line-height: 0.25em;
-  text-align: center;
-  line-height: 3.5em;
-}
-.hero-section .form-overlay form {
-  position: relative;
-  margin: 0 auto;
-  width: fit-content;
-  height: fit-content;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 50px;
-}
-.hero-section .form-overlay form h1 {
-  padding-bottom: 30px;
-}
-.hero-section .form-overlay form input[type=text], .hero-section .form-overlay form [type=email], .hero-section .form-overlay form textarea {
-  background: none;
-  border: none;
-  border-bottom: solid 2px #fff;
-  color: #fff;
-  font-size: 1em;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin: 0em 0 1.875em 0;
-  padding: 0 0 0.875em 0;
-  text-transform: uppercase;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.hero-section .form-overlay form input[type=text]:focus, .hero-section .form-overlay form [type=email]:focus, .hero-section .form-overlay form textarea:focus {
-  outline: none;
-  border-bottom-style: groove;
-  padding: 0 0 0.5em 0;
-}
-.hero-section .form-overlay form input[type=submit] {
-  border: none;
-  background: #AB52C5;
-  border-radius: 10px;
-  display: block;
-  margin: 0 auto;
-  color: #fff;
-}
-.hero-section .form-overlay form .wpcf7-not-valid-tip {
-  height: 20px;
-}
-.hero-section .form-overlay form .wpcf7 form .wpcf7-response-output {
-  margin: 0;
-}
-.hero-section .form-overlay form .message {
-  height: 100px;
-}
-.hero-section .form-overlay form ::-webkit-input-placeholder {
-  color: #fff;
-}
-.hero-section .form-overlay form :-moz-placeholder {
-  color: #fff;
-  opacity: 1;
-}
-.hero-section .form-overlay form ::-moz-placeholder {
-  color: #fff;
-  opacity: 1;
-}
-.hero-section .form-overlay form :-ms-input-placeholder {
-  color: #fff;
-}
-.hero-section .form-overlay form ::placeholder {
-  color: #fff;
-}
-.hero-section .form-overlay .social-media {
-  position: relative;
-  width: fit-content;
-  background: rgba(0, 0, 0, 0.4);
-  margin: 0 auto;
-  color: #fff;
-}
-.hero-section .form-overlay .social-media i {
-  padding: 0 10px;
-  color: #fff;
-}
 
 .name {
   font-family: "Mr Dafoe";
@@ -1345,63 +1251,63 @@ textarea {
   }
 }
 .scene-container {
-  position: fixed;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
   background-color: #140e35;
+  overflow: hidden;
 }
-
-.sky {
+.scene-container .sky {
   position: absolute;
   width: 100%;
   height: 70vh;
   top: 0;
 }
-.sky .clouds {
+.scene-container .sky .clouds {
   position: absolute;
-  bottom: 0%;
+  bottom: 0;
   left: -10px;
 }
-.sky .clouds ul {
+.scene-container .sky .clouds ul {
   list-style-type: none;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
 }
-.sky .clouds ul li {
+.scene-container .sky .clouds ul li {
   background-color: #b8c6db;
 }
-.sky .clouds ul li:nth-child(1) {
+.scene-container .sky .clouds ul li:nth-child(1) {
   width: 200px;
   height: 300px;
   margin: 0 -10px -20px 0;
   border-radius: 100% 80% 0 90%;
   background-image: radial-gradient(circle at 80% 10%, rgba(245, 247, 250, 0.8) 0%, rgba(184, 198, 219, 0.5) 40%);
 }
-.sky .clouds ul li:nth-child(1) ul {
+.scene-container .sky .clouds ul li:nth-child(1) ul {
   position: absolute;
   bottom: 0;
   overflow: hidden;
 }
-.sky .clouds ul li:nth-child(1) ul li:nth-child(1) {
+.scene-container .sky .clouds ul li:nth-child(1) ul li:nth-child(1) {
   width: 150px;
   height: 220px;
   background-color: #add8e6;
 }
-.sky .clouds ul li:nth-child(1) ul li:nth-child(2) {
+.scene-container .sky .clouds ul li:nth-child(1) ul li:nth-child(2) {
   width: 170px;
   height: 230px;
   background-color: #add8e6;
 }
-.sky .clouds ul li:nth-child(1) ul li:nth-child(3) {
+.scene-container .sky .clouds ul li:nth-child(1) ul li:nth-child(3) {
   width: 130px;
   height: 150px;
   background-color: #add8e6;
 }
-.sky .clouds ul li:nth-child(1) ul li:nth-child(4) {
+.scene-container .sky .clouds ul li:nth-child(1) ul li:nth-child(4) {
   width: 150px;
   height: 100px;
   background-color: #add8e6;
@@ -1409,21 +1315,21 @@ textarea {
   border-radius: 100% 80% 90% 0;
   background-image: radial-gradient(circle at 80% 10%, rgba(245, 247, 250, 0.8) 0%, rgba(184, 198, 219, 0.5) 40%);
 }
-.sky .clouds ul li:nth-child(2) {
+.scene-container .sky .clouds ul li:nth-child(2) {
   width: 200px;
   height: 270px;
   margin: 0 -10px -30px 0;
   border-radius: 100% 100% 0 0%;
   background-image: radial-gradient(circle at 80% 10%, rgba(245, 247, 250, 0.8) 0%, rgba(184, 198, 219, 0.5) 40%);
 }
-.sky .clouds ul li:nth-child(3) {
+.scene-container .sky .clouds ul li:nth-child(3) {
   width: 120px;
   height: 170px;
   margin: 0 0px -20px 0;
   border-radius: 100% 100% 90% 0%;
   background-image: radial-gradient(circle at 80% 10%, rgba(245, 247, 250, 0.8) 0%, rgba(184, 198, 219, 0.5) 40%);
 }
-.sky .moon {
+.scene-container .sky .moon {
   position: relative;
   margin: 0 auto;
   top: 10%;
@@ -1433,10 +1339,10 @@ textarea {
   background-color: #f5f7fa;
   box-shadow: 0 0 60px 30px rgba(255, 255, 255, 0.3), 0 0 100px 60px rgba(255, 255, 255, 0.3), 0 0 140px 90px rgba(255, 255, 255, 0.3);
 }
-.sky .moon ul {
+.scene-container .sky .moon ul {
   list-style-type: none;
 }
-.sky .moon ul li:nth-child(odd) {
+.scene-container .sky .moon ul li:nth-child(odd) {
   width: 40px;
   height: 40px;
   background-color: #b8c6db;
@@ -1444,9 +1350,9 @@ textarea {
   border-radius: 100%;
   position: relative;
   top: 130px;
-  left: 120px;
+  left: 45px;
 }
-.sky .moon ul li:nth-child(even) {
+.scene-container .sky .moon ul li:nth-child(even) {
   width: 20px;
   height: 20px;
   background-color: #b8c6db;
@@ -1454,10 +1360,9 @@ textarea {
   border-radius: 100%;
   position: relative;
   top: 130px;
-  left: 100px;
+  left: 25px;
 }
-
-.ocean {
+.scene-container .ocean {
   position: relative;
   width: 100%;
   height: 30vh;
@@ -1465,6 +1370,110 @@ textarea {
   background: radial-gradient(circle at 50% 10%, white 0%, #2c2071 35%, #140e35 100%);
   filter: blur(4px);
   top: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .clouds {
+    display: none;
+  }
+}
+.form-section {
+  height: 100vh;
+  width: 100%;
+}
+
+.form-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  margin-top: -230px;
+  color: #fff;
+  line-height: 0.25em;
+  text-align: center;
+  line-height: 3.5em;
+}
+.form-overlay form {
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 50px;
+}
+.form-overlay form h1 {
+  padding-bottom: 30px;
+}
+.form-overlay form input[type=text], .form-overlay form [type=email], .form-overlay form textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #fff;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.form-overlay form input[type=text]:focus, .form-overlay form [type=email]:focus, .form-overlay form textarea:focus {
+  outline: none;
+  border-bottom-style: groove;
+  padding: 0 0 0.5em 0;
+}
+.form-overlay form input[type=submit] {
+  border: none;
+  background: #AB52C5;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+}
+.form-overlay form .wpcf7-not-valid-tip {
+  height: 20px;
+}
+.form-overlay form .wpcf7 form .wpcf7-response-output {
+  margin: 0;
+}
+.form-overlay form .message {
+  height: 100px;
+}
+.form-overlay form ::-webkit-input-placeholder {
+  color: #fff;
+}
+.form-overlay form :-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.form-overlay form ::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.form-overlay form :-ms-input-placeholder {
+  color: #fff;
+}
+.form-overlay form ::placeholder {
+  color: #fff;
+}
+.form-overlay .social-media {
+  position: relative;
+  width: fit-content;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+  color: #fff;
+}
+.form-overlay .social-media i {
+  padding: 0 10px;
+  color: #fff;
 }
 
 .heading {

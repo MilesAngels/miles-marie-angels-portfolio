@@ -69,8 +69,8 @@
             <h1 class="weight-600 name"><?php the_field('overlay_text'); ?></h1>
         </div>
     <?php elseif (is_page('contact')):?>
+        
         <?php get_template_part('template-parts/contact-hero');?>
-        <?php get_template_part('template-parts/contact-form');?>
         
     <?php endif; ?>
 </section>
