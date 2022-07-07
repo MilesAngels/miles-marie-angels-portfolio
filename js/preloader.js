@@ -32,7 +32,7 @@ window.addEventListener('load', () => {
         setInterval(function () { 
             frames[i % frameCount].style.display = "none";
             frames[++i % frameCount].style.display = "block";
-        }, 150);
+        }, 90);
         //animation.remove();
     }, 600);
     setTimeout(() => {
@@ -40,7 +40,7 @@ window.addEventListener('load', () => {
         fadeOut();
         animation.remove();
         document.body.style.overflowY = "visible";
-    }, 4000);
+    }, 1800);
 }); 
 
 // window.addEventListener('load', () => {
