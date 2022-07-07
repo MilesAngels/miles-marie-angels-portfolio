@@ -47,7 +47,7 @@ $bg-dark: #23d5ab;
   position: absolute;
   top: 50%;
   left: 50%;
-  z-index: 2;
+  z-index: 0;
   width: 120px;
   height: 120px;
   background: linear-gradient(to bottom, $orange-light 1%, $orange 50%, $orange-dark 100%);
@@ -87,13 +87,13 @@ $bg-dark: #23d5ab;
 
 .ring-before,
 .ring-bigger-before {
-  z-index: 3;
+  z-index: 0;
   clip-path: inset(50% 0 0 0);
 }
 
 .ring-after,
 .ring-bigger-after {
-  z-index: 1;
+  z-index: 0;
   clip-path: inset(0 0 50% 0);
 }
 
@@ -101,7 +101,7 @@ $bg-dark: #23d5ab;
   position: absolute;
   top: 24%;
   left: 75%;
-  z-index: 4;
+  z-index: 0;
   width: 35px;
   height: 35px;
   background: linear-gradient(to bottom, $blue-light 1%, $blue 50%, $blue-dark 100%);
@@ -118,7 +118,7 @@ $bg-dark: #23d5ab;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9;
+  //z-index: 1;
 }
 
 @for $i from 1 through 6 {

@@ -48,16 +48,18 @@
             </div>
             <div class="footer-container">
                 <h3>CONTACT</h3>
-                <?php
-                     if ( dynamic_sidebar('footer-widget-area') ) : else : endif;
+                <div>
+                    <?php
+                        if ( dynamic_sidebar('footer-widget-area') ) : else : endif;
 
-                    wp_nav_menu(array(
-                        'menu' => 'Nav Menu',
-                        'theme_location' => 'footer-menu4',
-                        'menu_class' => 'footer-menu',
-                        'menu_id' => 'footer-id'
-                    ))
-                ?>
+                        wp_nav_menu(array(
+                            'menu' => 'Nav Menu',
+                            'theme_location' => 'footer-menu4',
+                            'menu_class' => 'footer-menu',
+                            'menu_id' => 'footer-id'
+                        ))
+                    ?>
+                </div>
             </div>
             
         </section>

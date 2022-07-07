@@ -624,6 +624,25 @@ textarea {
   box-sizing: border-box;
 }
 
+/* SROLLBAR */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #182030;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .montserrat {
   font-family: "Montserrat";
 }
@@ -682,6 +701,7 @@ textarea {
   list-style-type: none;
   float: right;
   display: none;
+  z-index: 9999;
 }
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -689,11 +709,12 @@ textarea {
   position: absolute;
   top: 100%;
   left: -999em;
-  z-index: 99999;
+  z-index: 99999 !important;
 }
 .main-navigation ul ul ul {
   left: -999em;
   top: 0;
+  z-index: 9999;
 }
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   display: block;
@@ -848,6 +869,7 @@ textarea {
   width: 38px;
   padding: 0;
   margin: 0;
+  filter: drop-shadow(0px 5px 4px rgba(255, 255, 255, 0.4));
 }
 
 @media screen and (max-width: 37.5em) {
@@ -856,6 +878,11 @@ textarea {
   }
   .footer-column .footer-container {
     padding-bottom: 1.5em;
+  }
+  .footer-column .footer-container div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
   .footer-column .footer-container .wp-container-6 {
     gap: 0;
@@ -1051,7 +1078,7 @@ textarea {
   padding: 30px 15px;
   line-height: 0.25em;
   font-family: "Montserrat";
-  z-index: 999;
+  z-index: 0;
 }
 .hero-section .overlay p {
   font-size: 1.7em;
@@ -1279,6 +1306,8 @@ textarea {
   display: flex;
   align-items: flex-end;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 .scene-container .sky .clouds ul li {
   background-color: #b8c6db;
@@ -1294,6 +1323,8 @@ textarea {
   position: absolute;
   bottom: 0;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 .scene-container .sky .clouds ul li:nth-child(1) ul li:nth-child(1) {
   width: 150px;
@@ -1344,6 +1375,8 @@ textarea {
 }
 .scene-container .sky .moon ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .scene-container .sky .moon ul li:nth-child(odd) {
   width: 40px;
@@ -1353,7 +1386,7 @@ textarea {
   border-radius: 100%;
   position: relative;
   top: 130px;
-  left: 45px;
+  left: 120px;
 }
 .scene-container .sky .moon ul li:nth-child(even) {
   width: 20px;
@@ -1363,7 +1396,7 @@ textarea {
   border-radius: 100%;
   position: relative;
   top: 130px;
-  left: 25px;
+  left: 100px;
 }
 .scene-container .ocean {
   position: relative;
@@ -1549,6 +1582,12 @@ textarea {
   background-color: white;
 }
 
+.category {
+  text-align: center;
+  text-decoration: 3px solid underline;
+  color: white;
+}
+
 .caption {
   position: absolute;
   bottom: 5px;
@@ -1620,7 +1659,7 @@ textarea {
   position: absolute;
   top: 50%;
   left: 50%;
-  z-index: 2;
+  z-index: 0;
   width: 120px;
   height: 120px;
   background: linear-gradient(to bottom, #fecf4e 1%, #a62a44 50%, #310441 100%);
@@ -1659,13 +1698,13 @@ textarea {
 
 .ring-before,
 .ring-bigger-before {
-  z-index: 3;
+  z-index: 0;
   clip-path: inset(50% 0 0 0);
 }
 
 .ring-after,
 .ring-bigger-after {
-  z-index: 1;
+  z-index: 0;
   clip-path: inset(0 0 50% 0);
 }
 
@@ -1673,7 +1712,7 @@ textarea {
   position: absolute;
   top: 24%;
   left: 75%;
-  z-index: 4;
+  z-index: 0;
   width: 35px;
   height: 35px;
   background: linear-gradient(to bottom, #70a27d 1%, #4552a1 50%, #371a6a 100%);
@@ -1690,7 +1729,6 @@ textarea {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9;
 }
 
 .orbit-1 {
