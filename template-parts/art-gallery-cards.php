@@ -28,7 +28,17 @@
         </div>
       </div>
     </div>
+    <div class="img-box">
+      <img src="https://miles-marie-angels.local/wp-content/uploads/2022/07/night-scene.png" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Night Scene</p>
+          <p class="opacity-low">Miles Angels</p>
+        </div>
+      </div>
+    </div>
   </div>
+  
 
   <h2 class="category montserrat">Horror</h2>
   <div class="gallery-image">

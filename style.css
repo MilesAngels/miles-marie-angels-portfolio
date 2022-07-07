@@ -1283,6 +1283,7 @@ textarea {
 .scene-container {
   position: absolute;
   display: flex;
+  top: 0;
   justify-content: center;
   align-items: center;
   width: 100%;
