@@ -20,17 +20,17 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
-				<?php
-				miles_marie_angels_posted_on();
-				miles_marie_angels_posted_by();
-				?>
-			</div><!-- .entry-meta -->
+			
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
 	<?php miles_marie_angels_post_thumbnail(); ?>
-
+	<div class="entry-meta">
+				<?php
+				miles_marie_angels_posted_on();
+				miles_marie_angels_posted_by();
+				?>
+	</div><!-- .entry-meta -->
 	<div class="entry-content">
 		<?php
 		the_content(

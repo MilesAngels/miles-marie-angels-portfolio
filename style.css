@@ -841,6 +841,11 @@ textarea {
   flex: 1;
   text-align: center;
 }
+.footer-column .footer-container div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 .footer-column .footer-container h4 {
   margin: 0 auto;
   padding: 1em 0;
@@ -869,7 +874,7 @@ textarea {
   width: 38px;
   padding: 0;
   margin: 0;
-  filter: drop-shadow(0px 5px 4px rgba(255, 255, 255, 0.4));
+  filter: drop-shadow(0px 5px 4px rgba(255, 255, 255, 0.7));
 }
 
 @media screen and (max-width: 37.5em) {
@@ -919,7 +924,7 @@ textarea {
   display: none;
   width: 200px;
   height: 200px;
-  filter: drop-shadow(5px 30px 67px #ff0000);
+  filter: drop-shadow(0px 16px 69px red);
 }
 .preloader #animation1 img:first-child {
   display: block;
@@ -959,15 +964,38 @@ textarea {
   width: 80%;
   margin: 0 auto;
   color: #fff;
-}
-
-.entry-title {
-  font-family: "Montserrat";
+  text-align: center;
 }
 
 .site-main .post-navigation {
   width: 80%;
   margin: 0 auto;
+}
+
+.post-thumbnail {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.post-thumbnail img {
+  width: fit-content;
+}
+
+.entry-header {
+  font-family: "Montserrat";
+}
+.entry-header .entry-title {
+  font-family: "Beau Rivage", cursive;
+}
+
+.entry-meta {
+  line-height: 3em;
+}
+
+time, a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* HERO SECTION */
@@ -1968,6 +1996,18 @@ textarea {
 
 .post-thumbnail {
   border: 1px solid #fff;
+}
+
+.comment-form-author, .comment-form-email, .comment-form-url, .comment-form-cookies-consent, #email-notes {
+  display: none;
+}
+
+.comment-form {
+  margin: 0 auto;
+}
+.comment-form .form-submit {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Widgets

@@ -14,7 +14,7 @@
       <img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/Space-1.jpg" alt="" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Space</p>
+          <p><a href="https://miles-marie-angels.local/space/">Space</a></p>
           <p class="opacity-low">Miles Angels</p>
         </div>
       </div>
@@ -23,7 +23,7 @@
       <img src="http://miles-marie-angels.local/wp-content/uploads/2022/06/Dream.jpg" alt="" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Adventure</p>
+          <p><a href="https://miles-marie-angels.local/adventure/">Adventure</a></p>
           <p class="opacity-low">Miles Angels</p>
         </div>
       </div>
