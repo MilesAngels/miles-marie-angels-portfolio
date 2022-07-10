@@ -38,10 +38,12 @@
 	width: 80%;
 	height: auto;
 	margin: 0 auto;
-	
+	border: none;
 }
 .post-thumbnail img {
-	width: fit-content;
+	width: 100%;
+	height: auto;
+	border: 1px solid darkgray;
 }
 
 .entry-header {
@@ -52,11 +54,21 @@
 	}
 }
 
-.entry-meta {
-	line-height: 3em;
+.entry-meta, .entry-footer {
+	line-height: 2em;
+	color:darkgray;
 }
 
 time, a {
 	text-decoration: none;
+	color: darkgray;
+}
+
+a:hover {
 	color: #fff;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: lightblue;
 }

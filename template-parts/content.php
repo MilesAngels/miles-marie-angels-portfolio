@@ -25,6 +25,9 @@
 	</header><!-- .entry-header -->
 
 	<?php miles_marie_angels_post_thumbnail(); ?>
+	<div>
+		<h3><?php the_field('description')?></h3>
+	</div>
 	<div class="entry-meta">
 				<?php
 				miles_marie_angels_posted_on();

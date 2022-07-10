@@ -145,9 +145,10 @@
     line-height: 0.25em;
     font-family: "Montserrat";
     z-index:0;
+    word-wrap: break-word;
 
     p {
-      font-size: 1.7em;
+      font-size: 1.5em;
     }
     .project-button {
       background: #f2a2a7;

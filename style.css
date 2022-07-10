@@ -976,10 +976,13 @@ textarea {
   width: 80%;
   height: auto;
   margin: 0 auto;
+  border: none;
 }
 
 .post-thumbnail img {
-  width: fit-content;
+  width: 100%;
+  height: auto;
+  border: 1px solid darkgray;
 }
 
 .entry-header {
@@ -989,13 +992,23 @@ textarea {
   font-family: "Beau Rivage", cursive;
 }
 
-.entry-meta {
-  line-height: 3em;
+.entry-meta, .entry-footer {
+  line-height: 2em;
+  color: darkgray;
 }
 
 time, a {
   text-decoration: none;
+  color: darkgray;
+}
+
+a:hover {
   color: #fff;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: lightblue;
 }
 
 /* HERO SECTION */
@@ -1107,9 +1120,10 @@ time, a {
   line-height: 0.25em;
   font-family: "Montserrat";
   z-index: 0;
+  word-wrap: break-word;
 }
 .hero-section .overlay p {
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 .hero-section .overlay .project-button {
   background: #f2a2a7;
@@ -1624,6 +1638,9 @@ time, a {
   opacity: 0;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
+.caption p a {
+  color: #fff;
+}
 
 .transparent-box {
   height: 250px;
@@ -1992,10 +2009,6 @@ time, a {
 
 .comment-form-comment {
   color: #fff;
-}
-
-.post-thumbnail {
-  border: 1px solid #fff;
 }
 
 .comment-form-author, .comment-form-email, .comment-form-url, .comment-form-cookies-consent, #email-notes {

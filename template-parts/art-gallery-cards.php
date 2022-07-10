@@ -32,7 +32,7 @@
       <img src="https://miles-marie-angels.local/wp-content/uploads/2022/07/night-scene.png" alt="" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Night Scene</p>
+          <p> <a href="https://miles-marie-angels.local/night-scene/">Night Scene</a></p>
           <p class="opacity-low">Miles Angels</p>
         </div>
       </div>
@@ -41,7 +41,7 @@
       <img src="https://miles-marie-angels.local/wp-content/uploads/2022/07/20220527_092657-scaled-e1657311259707.jpg" alt="" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Save Point</p>
+          <p><a href="https://miles-marie-angels.local/save-point/">Save Point</a></p>
           <p class="opacity-low">Miles Angels</p>
         </div>
       </div>
