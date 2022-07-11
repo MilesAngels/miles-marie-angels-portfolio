@@ -3,15 +3,18 @@
     background-color: #182030;
     grid-template-columns: 1fr;
     padding: 10% 0;
-    
+    //justify-content: center;
     .about-image-container {
        width: 100%;
+       height: auto;
        
        .about-image {
             background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
             margin: 0 auto;
+            background-size: cover;
+            background-position: center center;
             //height: fit-content;
-            filter: brightness(80%);
+            //filter: brightness(80%);
        }
     }
     .about-text {
@@ -92,8 +95,8 @@
         .about-image-container {
             margin: 0 10%;
             .about-image {
-                width: 300px;
-                height: 400px;
+                background-size: cover;
+                background-position: center center;
             }
         }
         .about-text {
@@ -118,3 +121,4 @@
         
     }
 }
+

@@ -674,6 +674,9 @@ textarea {
 .bg-color-magic {
   background-color: #140e35;
 }
+.bg-color-posts {
+  background-color: #000033;
+}
 
 .site-header {
   height: 70px;
@@ -1049,7 +1052,7 @@ a:visited {
   width: 300px;
   height: 300px;
   background: #c73e1d;
-  background: radial-gradient(circle at 30% 30%, rgba(255, 172, 128, 0.4) 4%, rgba(199, 62, 29, 0.5) 7%, rgba(162, 59, 114, 0.6) 10%, rgba(46, 134, 171, 0.3) 50%, rgba(9, 32, 63, 0.7) 90%);
+  background: radial-gradient(circle at 30% 30%, rgba(255, 172, 128, 0.4) 3%, rgba(240, 112, 81, 0.4) 6%, rgba(162, 59, 114, 0.6) 10%, rgba(46, 134, 171, 0.3) 50%, rgba(9, 32, 63, 0.7) 90%);
   border-radius: 100%;
   border: 1px solid rgba(46, 134, 171, 0.8);
   margin: 5px;
@@ -1060,7 +1063,7 @@ a:visited {
   width: 150px;
   height: 150px;
   background: #c73e1d;
-  background: radial-gradient(circle at 30% 30%, rgba(255, 172, 128, 0.4) 4%, rgba(199, 62, 29, 0.5) 7%, rgba(162, 59, 114, 0.6) 10%, rgba(46, 134, 171, 0.3) 50%, rgba(9, 32, 63, 0.7) 90%);
+  background: radial-gradient(circle at 30% 30%, rgba(255, 172, 128, 0.4) 3%, rgba(240, 112, 81, 0.4) 6%, rgba(162, 59, 114, 0.6) 10%, rgba(46, 134, 171, 0.3) 50%, rgba(9, 32, 63, 0.7) 90%);
   border-radius: 100%;
   border: 1px solid rgba(46, 134, 171, 0.8);
   margin: 15px;
@@ -1070,7 +1073,7 @@ a:visited {
   width: 100px;
   height: 100px;
   background: #c73e1d;
-  background: radial-gradient(circle, rgba(199, 62, 29, 0.2) 0%, rgba(162, 59, 114, 0.3) 25%, #2e86ab 99%);
+  background: radial-gradient(circle at 30% 30%, rgba(255, 172, 128, 0.4) 3%, rgba(240, 112, 81, 0.4) 6%, rgba(162, 59, 114, 0.6) 10%, rgba(46, 134, 171, 0.3) 50%, rgba(9, 32, 63, 0.7) 90%);
   border-radius: 100%;
   border: 1px solid rgba(46, 134, 171, 0.8);
   margin: 25px;
@@ -1080,8 +1083,9 @@ a:visited {
   width: 50px;
   height: 50px;
   background-color: rgba(255, 255, 255, 0.2);
+  background: radial-gradient(circle, rgba(199, 62, 29, 0.2) 0%, rgba(162, 59, 114, 0.3) 25%, #2e86ab 99%);
   border-radius: 100%;
-  border: 1px solid #fff;
+  border: 1px solid rgba(46, 134, 171, 0.8);
   margin: 35px;
   animation: smallBubbles 10s linear infinite;
 }
@@ -1175,11 +1179,13 @@ a:visited {
 }
 .about-me-container .about-image-container {
   width: 100%;
+  height: auto;
 }
 .about-me-container .about-image-container .about-image {
   background: linear-gradient(131.37deg, #FFFFFF 2.59%, #182030 98.05%);
   margin: 0 auto;
-  filter: brightness(80%);
+  background-size: cover;
+  background-position: center center;
 }
 .about-me-container .about-text {
   width: 250px;
@@ -1247,8 +1253,8 @@ a:visited {
     margin: 0 10%;
   }
   .about-me-container .about-image-container .about-image {
-    width: 300px;
-    height: 400px;
+    background-size: cover;
+    background-position: center center;
   }
   .about-me-container .about-text {
     width: fit-content;

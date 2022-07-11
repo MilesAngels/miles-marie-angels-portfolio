@@ -1,6 +1,6 @@
 <section class="about-me-container">
     <div class="about-image-container">
-        <div class="about-image" style="background-image: url('http://miles-marie-angels.local/wp-content/uploads/2022/06/20220624_161631-scaled.jpg'); background-size: cover; height: 400px; background-repeat: no-repeat;"></div>
+        <div class="about-image" style="background-image: url('https://miles-marie-angels.local/wp-content/uploads/2022/07/20220711_123713-scaled.jpg'); background-size: contain; height: 400px; background-repeat: no-repeat;"></div>
     </div>
     <div class="about-text">
         <h2 class="montserrat">Hi, I'm Miles Angels!</h2>
@@ -13,7 +13,7 @@
 
 <section class="credentials">
     <div class="skills">
-        <h3>Skillset</h3>
+        <h3 id="skills">Skillset</h3>
         <article>
             <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/html-5.png">
             <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/css-3.png" alt="">
@@ -27,7 +27,7 @@
         </article>
     </div>
     <div class="background">
-        <h3>Background</h3>
+        <h3 id="background-content"> Background</h3>
         <p>I am originally from the Philippines. My mother and I migrated to the United States when I was 16 years old. I struggled to find my passion to do anything. That is until I came accross the Computer Science program in Sacramento City College where I was currently enrolled in to the nursing pathway. I was unhappy with the nursing program so I decided to drop it and transition to Computer Science.
         It was one of the best decisions of my life.
         </p>

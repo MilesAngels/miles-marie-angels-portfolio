@@ -46,8 +46,8 @@
     background: rgb(199, 62, 29);
     background: radial-gradient(
       circle at 30% 30%,
-      rgba(255, 172, 128, 0.4) 4%,
-      rgba(199, 62, 29, 0.5) 7%,
+      rgba(255, 172, 128, 0.4) 3%,
+      rgba(240, 112, 81, 0.4) 6%,
       rgba(162, 59, 114, 0.6) 10%,
       rgba(46, 134, 171, 0.3) 50%,
       rgba(9, 32, 63, 0.7) 90%
@@ -65,8 +65,8 @@
     background: rgb(199, 62, 29);
     background: radial-gradient(
       circle at 30% 30%,
-      rgba(255, 172, 128, 0.4) 4%,
-      rgba(199, 62, 29, 0.5) 7%,
+      rgba(255, 172, 128, 0.4) 3%,
+      rgba(240, 112, 81, 0.4) 6%,
       rgba(162, 59, 114, 0.6) 10%,
       rgba(46, 134, 171, 0.3) 50%,
       rgba(9, 32, 63, 0.7) 90%
@@ -82,10 +82,12 @@
     height: 100px;
     background: rgb(199, 62, 29);
     background: radial-gradient(
-      circle,
-      rgba(199, 62, 29, 0.2) 0%,
-      rgba(162, 59, 114, 0.3) 25%,
-      rgba(46, 134, 171, 1) 99%
+      circle at 30% 30%,
+      rgba(255, 172, 128, 0.4) 3%,
+      rgba(240, 112, 81, 0.4) 6%,
+      rgba(162, 59, 114, 0.6) 10%,
+      rgba(46, 134, 171, 0.3) 50%,
+      rgba(9, 32, 63, 0.7) 90%
     );
     border-radius: 100%;
     border: 1px solid rgba(46, 134, 171, 0.8);
@@ -97,8 +99,14 @@
     width: 50px;
     height: 50px;
     background-color: rgba(255, 255, 255, 0.2);
+    background: radial-gradient(
+      circle,
+      rgba(199, 62, 29, 0.2) 0%,
+      rgba(162, 59, 114, 0.3) 25%,
+      rgba(46, 134, 171, 1) 99%
+    );
     border-radius: 100%;
-    border: 1px solid #fff;
+    border: 1px solid rgba(46, 134, 171, 0.8);
     margin: 35px;
     animation: smallBubbles 10s linear infinite;
   }
@@ -144,7 +152,7 @@
     padding: 30px 15px;
     line-height: 0.25em;
     font-family: "Montserrat";
-    z-index:0;
+    z-index: 0;
     word-wrap: break-word;
 
     p {
