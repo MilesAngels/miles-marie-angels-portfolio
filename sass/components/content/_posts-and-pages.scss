@@ -27,6 +27,7 @@
 	margin: 0 auto;
 	color: #fff;
 	text-align: center;
+	padding-top: 40px;
 }
 
 .site-main .post-navigation {
@@ -34,8 +35,12 @@
 	margin: 0 auto;
 }
 
+.post-navigation {
+	padding-top: 50px;
+}
+
 .post-thumbnail {
-	width: 80%;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
 	border: none;
@@ -60,16 +65,20 @@
 	color:darkgray;
 }
 
-time, a {
+.entry-meta {
+	margin-top: 60px;
+}
+
+time, .edit-link a, .logged-in-as a{
 	text-decoration: none;
 	color: darkgray;
 }
 
-a:hover {
+.nav-previous a:hover, .nav-next a:hover {
 	color: #fff;
 	text-decoration: underline;
 }
 
-a:visited {
+.nav-previous a:visited, .nav-next a:visited, .cat-links a, .author a{
 	color: lightblue;
 }

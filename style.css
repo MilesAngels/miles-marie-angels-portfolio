@@ -537,8 +537,7 @@ a:hover, a:active {
 --------------------------------------------- */
 button,
 input[type=button],
-input[type=reset],
-input[type=submit] {
+input[type=reset] {
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
@@ -549,17 +548,14 @@ input[type=submit] {
 }
 button:hover,
 input[type=button]:hover,
-input[type=reset]:hover,
-input[type=submit]:hover {
+input[type=reset]:hover {
   border-color: #ccc #bbb #aaa;
 }
 button:active, button:focus,
 input[type=button]:active,
 input[type=button]:focus,
 input[type=reset]:active,
-input[type=reset]:focus,
-input[type=submit]:active,
-input[type=submit]:focus {
+input[type=reset]:focus {
   border-color: #aaa #bbb #bbb;
 }
 
@@ -968,6 +964,7 @@ textarea {
   margin: 0 auto;
   color: #fff;
   text-align: center;
+  padding-top: 40px;
 }
 
 .site-main .post-navigation {
@@ -975,8 +972,12 @@ textarea {
   margin: 0 auto;
 }
 
+.post-navigation {
+  padding-top: 50px;
+}
+
 .post-thumbnail {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   border: none;
@@ -1000,17 +1001,21 @@ textarea {
   color: darkgray;
 }
 
-time, a {
+.entry-meta {
+  margin-top: 60px;
+}
+
+time, .edit-link a, .logged-in-as a {
   text-decoration: none;
   color: darkgray;
 }
 
-a:hover {
+.nav-previous a:hover, .nav-next a:hover {
   color: #fff;
   text-decoration: underline;
 }
 
-a:visited {
+.nav-previous a:visited, .nav-next a:visited, .cat-links a, .author a {
   color: lightblue;
 }
 
@@ -2024,9 +2029,16 @@ a:visited {
 .comment-form {
   margin: 0 auto;
 }
-.comment-form .form-submit {
-  margin-left: auto;
-  margin-right: auto;
+
+.form-submit input[type=submit] {
+  margin: 0 auto !important;
+  text-align: center;
+  background-color: #FFF;
+  border-radius: 15px;
+}
+
+.comment-respond {
+  margin-top: 80px;
 }
 
 /* Widgets
