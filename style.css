@@ -769,11 +769,19 @@ textarea {
   text-align: center;
   transform: translateY(0%);
   transition: transform 5s ease-out;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 0;
 }
 .main-navigation.toggled ul li a {
   padding: 30px;
+  color: #000;
+  font-size: 1.25em;
+}
+.main-navigation.toggled ul li a:hover {
+  color: #fff;
+}
+.main-navigation.toggled ul li:hover {
+  background-color: #000033;
 }
 
 .burger-menu {
@@ -1017,6 +1025,11 @@ time, .edit-link a, .logged-in-as a {
 
 .nav-previous a:visited, .nav-next a:visited, .cat-links a, .author a {
   color: lightblue;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1rem;
 }
 
 /* HERO SECTION */
@@ -1611,10 +1624,13 @@ time, .edit-link a, .logged-in-as a {
   }
 }
 .gallery-image {
-  padding: 20px;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
+  gap: 15px;
+  padding: 30px 0 60px 0;
 }
 
 .gallery-image img {
@@ -1634,12 +1650,15 @@ time, .edit-link a, .logged-in-as a {
   color: white;
   position: relative;
   background-color: white;
+  border: 2px solid #6b645c;
 }
 
 .category {
   text-align: center;
-  text-decoration: 3px solid underline;
+  font-family: "Montserrat";
+  font-size: 2.5em;
   color: white;
+  margin-top: 60px;
 }
 
 .caption {
@@ -2033,8 +2052,9 @@ time, .edit-link a, .logged-in-as a {
 .form-submit input[type=submit] {
   margin: 0 auto !important;
   text-align: center;
-  background-color: #FFF;
+  background-color: lightblue;
   border-radius: 15px;
+  border: none;
 }
 
 .comment-respond {
