@@ -28,8 +28,7 @@
     </div>
     <div class="background">
         <h3 id="background-content"> Background</h3>
-        <p>I am originally from the Philippines. My mother and I migrated to the United States when I was 16 years old. I struggled to find my passion to do anything. That is until I came accross the Computer Science program in Sacramento City College where I was currently enrolled in to the nursing pathway. I was unhappy with the nursing program so I decided to drop it and transition to Computer Science.
-        It was one of the best decisions of my life.
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat necessitatibus laborum ipsum nemo incidunt voluptatum amet eaque ullam consequatur doloremque delectus, temporibus vel quos ea, ut architecto accusantium neque! Assumenda.
         </p>
         
     </div>

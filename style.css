@@ -690,6 +690,7 @@ textarea {
   margin: 0px 15px;
   height: 50px;
   width: 50px;
+  z-index: 999999;
 }
 
 .main-navigation {
@@ -750,10 +751,25 @@ textarea {
   color: #fff;
 }
 
+.burger-menu {
+  display: flex;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFF !important;
+}
+
 .main-navigation.toggled {
   display: block;
   right: 0px;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.main-navigation.toggled .menu-toggle {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.main-navigation.toggled .menu-toggle .primary-menu a {
+  position: absolute;
+  padding-right: 5%;
 }
 .main-navigation.toggled .menu-primary-menu-container {
   width: 100%;
@@ -768,9 +784,12 @@ textarea {
   margin: 30px 0 0 0px;
   text-align: center;
   transform: translateY(0%);
-  transition: transform 5s ease-out;
+  transition: transform 5s ease-in;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 0;
+}
+.main-navigation.toggled ul li:hover {
+  background-color: #000033;
 }
 .main-navigation.toggled ul li a {
   padding: 30px;
@@ -779,16 +798,6 @@ textarea {
 }
 .main-navigation.toggled ul li a:hover {
   color: #fff;
-}
-.main-navigation.toggled ul li:hover {
-  background-color: #000033;
-}
-
-.burger-menu {
-  display: flex;
-  font-weight: 600;
-  font-size: 1.5rem;
-  color: #FFF !important;
 }
 
 @media screen and (min-width: 37.5em) {
