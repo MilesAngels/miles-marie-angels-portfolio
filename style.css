@@ -1222,6 +1222,7 @@ h3 {
     font-size: 3em;
   }
 }
+/* ABOUT PAGE */
 .about-me-container {
   display: grid;
   background-color: #182030;
@@ -1296,6 +1297,7 @@ h3 {
   font-weight: 400;
 }
 
+/* START OF MEDIA QUERIES */
 @media screen and (min-width: 40em) {
   .about-me-container {
     grid-template-columns: 1fr 2fr;

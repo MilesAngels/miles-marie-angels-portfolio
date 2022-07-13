@@ -1,9 +1,14 @@
+/* ABOUT PAGE */
+
+//About Me section
 .about-me-container {
     display: grid;
     background-color: #182030;
     grid-template-columns: 1fr;
     padding: 10% 0;
     //justify-content: center;
+
+    //About Me Image Container
     .about-image-container {
        width: 100%;
        height: auto;
@@ -17,6 +22,8 @@
             //filter: brightness(80%);
        }
     }
+    
+    //About Me Text
     .about-text {
         width: 250px;
         margin: 0 auto;
@@ -34,6 +41,8 @@
     }
 }
 
+
+// Skills and Background Container
 .credentials {
     display: grid;
     background-color: #182030;
@@ -89,6 +98,7 @@
     
 }
 
+/* START OF MEDIA QUERIES */
 @media screen and (min-width: 40em) {
     .about-me-container {
         grid-template-columns: 1fr 2fr;
