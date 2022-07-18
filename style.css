@@ -953,6 +953,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: fadeOut 5s linear;
 }
 .preloader [aria-hidden=true] {
   display: none;
@@ -974,6 +975,26 @@ ul {
   overflow: hidden;
 }
 
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  99% {
+    opacity: 0;
+  }
+}
 /* Posts and pages
 --------------------------------------------- */
 .sticky {

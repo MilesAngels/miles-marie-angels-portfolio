@@ -30,8 +30,31 @@
     #animation1 img:first-child {
         display: block;
     }
+
+    animation: fadeOut 5s linear;
 }
 
 .disable-scroll{
     overflow: hidden;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    50% {
+        opacity:0.7;
+    }
+    60% {
+        opacity: 0.4;
+    }
+    80% {
+        opacity: 0.2;
+    }
+    99% {
+        opacity: 0;
+    }
 }
