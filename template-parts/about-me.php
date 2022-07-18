@@ -28,9 +28,10 @@
         </article>
     </div>
     <div class="background">
-        <h3 id="background-content"> Background</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat necessitatibus laborum ipsum nemo incidunt voluptatum amet eaque ullam consequatur doloremque delectus, temporibus vel quos ea, ut architecto accusantium neque! Assumenda.
-        </p>
+        <h3 id="background-content">Interactive Resume</h3>
+        <div>
+            
+        </div>
         
     </div>
 </section>

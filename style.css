@@ -1047,7 +1047,7 @@ ul {
 
 .post-thumbnail img {
   width: fit-content;
-  height: 70vh;
+  height: auto;
   border: 1px solid darkgray;
 }
 
