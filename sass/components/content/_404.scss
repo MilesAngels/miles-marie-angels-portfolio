@@ -1,0 +1,88 @@
+.cat-background {
+    position: relative;
+    background-color: #182631;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+}
+
+.text-cat {
+    color: #dbfeec;
+    h2 {
+        padding: 30px;
+        margin: 15px;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+
+svg {
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+    
+}
+
+.small-flame {
+    animation-name: flameMovement;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.delay {
+    animation-name: flameMovement;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+
+.bigStar {
+   filter: drop-shadow(15px 15px rgba(147, 232, 228, 0.8));
+   opacity: 0.8;
+}
+
+.bigStar:nth-child(even) {
+    animation: twinkle 3s infinite ease-in-out;
+}
+
+.smallStar:nth-child(odd) {
+    animation: twinkle 5s infinite ease-in-out;
+}
+
+// .moon {
+//     filter: drop-shadow(0px 30px rgba(2,195,184, 0.9));
+// }
+
+.pupil{
+   animation: pupilMove 2.5s infinite; 
+}
+
+
+@keyframes flameMovement {
+    50% {
+        transform: rotateX(10deg) rotateY(5deg);
+        opacity: 0.5;
+    }
+    
+}
+
+@keyframes pupilMove {
+    40% {
+        transform: translate(-80px, 40px);
+        
+    }
+}
+
+@keyframes twinkle {
+    30% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0;
+    }
+}

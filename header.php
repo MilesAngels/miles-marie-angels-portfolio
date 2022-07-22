@@ -10,8 +10,10 @@
  */
 
 ?>
+
 <!doctype html>
 <html <?php language_attributes(); ?>>
+
 <head>
 <script src="https://kit.fontawesome.com/6b35074062.js" crossorigin="anonymous"></script>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -32,6 +34,8 @@
 	<body class="bg-color-magic" <?php body_class(); ?>>
 <?php elseif(is_single()) :?>
 	<body class="bg-color-posts" <?php body_class(); ?>>
+<?php else:?>
+	<body class="bg-color-other" <?php body_class(); ?>>
 <?php endif;?>
 
 <?php wp_body_open(); ?>
@@ -39,6 +43,7 @@
 <div id="page" class="site">
 	<?php get_template_part('content/preloader'); ?>
 <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'miles-marie-angels' ); ?></a>
+	
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php
