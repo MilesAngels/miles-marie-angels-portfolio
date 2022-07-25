@@ -28,10 +28,31 @@
         </article>
     </div>
     <div class="background">
-        <h3 id="background-content">Interactive Resume</h3>
+        <h3 id="background-content">Experience</h3>
         <div>
-            
+            <h4>Wordpress Apprentice</h4>
+            <p>Alphaworks, Bitwise Industries Aprrenciticeship Program</p>
+            <p>January 2022 - Present</p>
         </div>
-        
+        <div>
+            <h4>Front Desk</h4>
+            <p>The Waterleaf at Land Park</p>
+            <p>January 2022 - January 2022</p>
+        </div>
+        <div>
+            <h4>Student</h4>
+            <p>Bitwise WorkForce Training</p>
+            <p>November 2021 - Present</p>
+        </div>
+        <div>
+            <h4>Personal Assitant</h4>
+            <p>Carolyn Knox</p>
+            <p>June 2021 - January 2022</p>
+        </div>
+        <div>
+            <h4>Caregiver</h4>
+            <p>Caregivers of Land Park</p>
+            <p>February 2017 - June 2017</p>
+        </div>
     </div>
 </section>

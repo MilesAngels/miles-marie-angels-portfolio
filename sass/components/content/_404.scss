@@ -86,3 +86,11 @@ svg {
         opacity: 0;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .cat-background svg {
+        width: 80%;
+        height: calc(100vh - 100px);
+        padding-bottom: 5%;
+    }
+}

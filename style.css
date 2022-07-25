@@ -1307,21 +1307,19 @@ h3 {
 }
 
 .credentials {
-  display: grid;
+  display: flex;
   background-color: #182030;
-  grid-template-columns: 1fr;
+  flex-direction: column;
   padding: 10% 0;
   justify-items: center;
   align-items: center;
   background: white;
 }
 .credentials .skills, .credentials .background {
-  display: grid;
   text-align: center;
   width: 300px;
   height: auto;
   min-height: 300px;
-  margin: 10% 0;
   padding: 20px;
   font-size: 1.25em;
 }
@@ -1334,6 +1332,18 @@ h3 {
   font-family: "Montserrat";
   font-weight: 700;
   margin: 10px 0 10px 0;
+}
+.credentials .background div {
+  margin: 20px 0;
+  background-color: rgba(95, 124, 181, 0.3);
+  padding: 15px;
+  line-height: 1.5em;
+}
+.credentials .background h4, .credentials .background h6, .credentials .background p {
+  margin: 0;
+}
+.credentials .background p {
+  font-size: 0.65em;
 }
 .credentials .skills article {
   display: flex;
@@ -1367,12 +1377,17 @@ h3 {
     margin: 0 10%;
   }
 
-  .credentials {
-    grid-template-columns: 1fr 1fr;
-  }
-  .credentials .skills, .credentials .background {
-    width: calc(100% - 100px);
+  .credentials .skills {
+    width: 90%;
     height: auto;
+  }
+  .credentials .background {
+    width: 50%;
+    height: auto;
+  }
+  .credentials .background div {
+    align-items: center;
+    width: 100%;
   }
 }
 .gallery {
@@ -2181,6 +2196,13 @@ svg {
   }
   60% {
     opacity: 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .cat-background svg {
+    width: 80%;
+    height: calc(100vh - 100px);
+    padding-bottom: 5%;
   }
 }
 /* Comments
