@@ -67,7 +67,7 @@
   </div>
   
 
-  <h2 class="category montserrat">Dreams/Nightmares</h2>
+  <h2 class="category montserrat">Dreams / Nightmares</h2>
   <div class="gallery-image">
     <div class="img-box">
       <img src="https://miles-marie-angels.local/wp-content/uploads/2022/07/Anxiety.jpg" alt="" />
