@@ -56,5 +56,5 @@
             <p>February 2017 - June 2017</p>
         </div>
     </div>
-    <button class="project-button"><a href="<?php echo get_permalink(get_page_by_path('projects'))?>"></a></button>
+    <!-- <button class="project-button"><a href="<?php echo get_permalink(get_page_by_path('projects'))?>"></a></button> -->
 </section>
