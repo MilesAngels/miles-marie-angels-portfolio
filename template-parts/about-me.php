@@ -4,7 +4,8 @@
     </div>
     <div class="about-text">
         <h2 class="montserrat">Hi, I'm Miles Angels!</h2>
-        <p>I am an aspiring Wordpress Developer apprentice who enjoys problem solving: be it in web developing or a puzzle. Creating accessible websites has been a passion of mine and making sure everyone can have the opportunity to enjoy the websites I create.</p>
+        <p>I am an aspiring Wordpress Developer apprentice based in Sacramento, who enjoys problem solving: be it in web developing or a puzzle. Creating accessible websites is my passion. Making sure everyone is given the opportunity to enjoy the websites I create.</p>
+        <p>I enjoy learning new things at least anywhere between coding and science. The deep and space are both my long time fascination. I love researching about new discoveries in both aspects.</p>
         <p>Playing vidoegames and creating art are some of my hobbies. I have been slowly discovering the wonders of digital art and CSS art. I find that creating things that spring from my imagination to be my form of relaxation.</p>
         <h3><a href="<?php echo get_permalink(get_page_by_path('projects'))?>">My Projects &#x2192;</a></h3>
         <h3><a href="<?php echo get_permalink(get_page_by_path('art'))?>">My Art &#x2192;</a></h3>
@@ -55,4 +56,5 @@
             <p>February 2017 - June 2017</p>
         </div>
     </div>
+    <button class="project-button"><a href="<?php echo get_permalink(get_page_by_path('projects'))?>"></a></button>
 </section>
