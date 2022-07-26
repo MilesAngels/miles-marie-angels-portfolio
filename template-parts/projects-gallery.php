@@ -19,7 +19,7 @@
     <div class="cards" style="background:url('<?php the_field('image_3'); ?>') center center; background-size: cover; background-repeat: no-repeat;">
         <div class="card-content">
             <h2 class="card-title"><?php the_field('website_name_3'); ?></h2>
-            <a href="https://milesangels.github.io/FinalProject/index.html">
+            <a href="https://miles-marie-angels.local/404">
                 <button class="redirect-button">Learn More!</button>
             </a>
         </div>
