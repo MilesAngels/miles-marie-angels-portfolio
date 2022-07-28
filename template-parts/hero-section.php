@@ -61,7 +61,7 @@
     <?php if(is_front_page()):?>
         <div class="overlay">
             <div class="front-text">
-                <p>Hey! My name is <span>Miles</span>.</p>
+                <p>Hey! My name is <strong>Miles</strong>.</p>
                 <p>I'm a <span>WordPress</span> developer.</p>
                 <button class="project-button"><a href="<?php echo get_permalink(get_page_by_path('projects'))?>">See my work</a></button>
             </div>

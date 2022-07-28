@@ -1,6 +1,6 @@
 <section class="about-me-container">
     <div class="about-image-container">
-        <div class="about-image" style="background-image: url('https://miles-marie-angels.local/wp-content/uploads/2022/07/20220711_123713-scaled.jpg'); background-size: contain; height: 400px; background-repeat: no-repeat;"></div>
+        <div class="about-image" style="background-image: url('<?php the_field('profile_image')?>'); background-size: contain; height: 400px; background-repeat: no-repeat;"></div>
     </div>
     <div class="about-text">
         <h2 class="montserrat">Hi, I'm Miles Angels!</h2>
@@ -16,16 +16,16 @@
     <div class="skills">
         <h3 id="skills">Skillset</h3>
         <article>
-            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/html-5.png">
-            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/css-3.png" >
-            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/sass.png" >
-            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/js.png" >
-            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/github.png" >
-            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/bootstrap-1.png" >
-            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/php.png" >
-            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/figma.png" >
-            <img class="icons" src="http://miles-marie-angels.local/wp-content/uploads/2022/06/c-.png">
-            <img class="icons" src="https://miles-marie-angels.local/wp-content/uploads/2022/07/wordpress.png">
+            <img class="icons" src="<?php the_field("icon_1");?>">
+            <img class="icons" src="<?php the_field("icon_2")?>" >
+            <img class="icons" src="<?php the_field("icon_3")?>" >
+            <img class="icons" src="<?php the_field("icon_4")?>" >
+            <img class="icons" src="<?php the_field("icon_5")?>" >
+            <img class="icons" src="<?php the_field("icon_6")?>" >
+            <img class="icons" src="<?php the_field("icon_7")?>" >
+            <img class="icons" src="<?php the_field("icon_8")?>" >
+            <img class="icons" src="<?php the_field("icon_9")?>">
+            <img class="icons" src="<?php the_field("icon_10")?>">
         </article>
     </div>
     <div class="background">
