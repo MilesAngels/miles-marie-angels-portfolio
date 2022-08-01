@@ -7,18 +7,18 @@ $cloud-gradient: radial-gradient(
 .scene-container {
 	position: absolute;
 	display: flex;
-	top: 0;
+	top: 30px;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 100vh;
+	height: 120vh;
 	background-color: #140e35;
 	overflow: hidden;
 
 	.sky {
 		position: absolute;
 		width: 100%;
-		height: 70vh;
+		height: 80vh;
 		top: 0;
 		.clouds {
 			position: absolute;
@@ -141,7 +141,7 @@ $cloud-gradient: radial-gradient(
 		position: relative;
 		//bottom: 0;
 		width: 100%;
-		height: 30vh;
+		height: 40vh;
 		background: rgb(65, 44, 180);
 		background: radial-gradient(
 			circle at 50% 10%,
