@@ -62,6 +62,14 @@ svg {
    animation: pupilMove 2.5s infinite; 
 }
 
+.attribution {
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: lightgrey;
+        font-size: 12px;
+    }
+}
 
 @keyframes flameMovement {
     50% {

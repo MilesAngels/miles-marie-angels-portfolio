@@ -198,9 +198,9 @@ get_header();
             </linearGradient>
             </defs>
             </svg>
-              
+            
     </div>
-
+    <p class="attribution"><a href="https://www.freepik.com/vectors/halloween">Halloween vector created by freepik - www.freepik.com</a></p> 
 	</main><!-- #main -->
 
 <?php
